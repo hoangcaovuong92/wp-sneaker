@@ -1,0 +1,13 @@
+/* CSS CUSTOM / FIX BUG NEW VERSION */
+/* Version 1.2 - 6/6/2018 			*/
+
+.woocommerce ul.products {
+    display: flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    flex-wrap: wrap;
+}
+
+.cart_dropdown .total span.woocommerce-Price-currencySymbol{
+	display: inline;
+}

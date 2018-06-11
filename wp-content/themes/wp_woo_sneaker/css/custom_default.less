@@ -1,0 +1,1459 @@
+// Font
+@font_body									: "Arial"; 										// Arial
+@font_body_second							: 'Open Sans', sans-serif;								// Open Sans
+@font_menu									: 'Open Sans', sans-serif;								 		// 'Open Sans', sans-serif;
+@font_sub_menu								: "Arial";									    // 'Open Sans', sans-serif;
+@font_heading								: 'Open Sans', sans-serif;										// 'Open Sans', sans-serif;
+
+@font_price									: 'Open Sans', sans-serif;
+/*******   Primary   *******/
+@wd_theme_color_primary						: #000000;
+@wd_theme_color_secondary					: #c30005;
+@wd_text_color								: #969696;
+@wd_link_color								: #000000;
+@wd_link_color_hover						: #c30005;
+@wd_button_background						: #c30005;
+@wd_button_background_hover					: #000000;
+@wd_button_text								: #ffffff;
+@wd_button_text_hover						: #ffffff;
+
+@wd_heading_color							: #141414;
+
+
+
+/*******   Header   *******/
+@wd_header_top_background					: #000000;
+@wd_header_top_text_color					: #c8c8c8;
+@wd_header_top_text_hover					: #ffffff;
+@wd_menu_background							: #dcdcdc;
+@wd_menu_text_color							: #000000;
+@wd_menu_text_color_hover					: #c30005;
+@wd_sub_menu_background						: #ffffff;
+@wd_sub_menu_border							: #cccccc;
+@wd_sub_menu_text_color						: #969696;
+@wd_sub_menu_text_color_hover				: #c30005;
+
+@wd_phone_background						:#000000;
+@wd_phone_text_color						:#ffffff;
+@wd_phone_sub_text_color					:#aaaaaa;
+
+@wd_testimonial_background					:#dcdcdc;
+@wd_product_name_color						:#969696;
+@wd_special_color							:#00387f;
+
+@wd_border_color							:#dcdcdc;
+@wd_border_color_hover						:#aaaaaa;
+
+
+@wd_link_title_portfolio					:#969696;
+@wd_link_title_portfolio_hover				:#000000;
+@wd_background_button_portfolio				:#000000;
+@wd_background_button_portfolio_hover		:#c30005;
+@wd_border_portfolio_hover					:#000000;
+
+@wd_button_cart_background					: #c8c8c8;
+@wd_button_cart_background_hover			: #c30005;
+@wd_button_cart_text						: #ffffff;
+@wd_button_cart_text_hover					: #ffffff;
+			
+
+@wd_quickshop_text_color					: #ffffff;
+@wd_quickshop_background					: #000000;
+
+@wd_background_advertisement				:#fff0c2;
+
+
+@wd_text_price_color						:#000000;
+@wd_rating_color							:#c30005;
+@wd_text_price_sale_color					:#c30005;
+
+
+@wd_footer_third_background					: #ffffff;
+@wd_footer_end_background					: #000000;
+@wd_footer_end_menu_text					: #ffffff;
+@wd_footer_end_menu_text_hover				: #969696;
+@wd_footer_end_text							: #aaaaaa;
+
+@wd_feature_sale							: #00387f;
+@wd_feature_new								: #d9870e;
+
+
+	/*==============================================================*/
+	/*                        PRIMARY                               */
+	/*==============================================================*/
+	
+	/* ====================================================================================================*/
+	/* ======================================= CUSTOM FONT ============================================== */
+	/* ====================================================================================================*/
+	body,input,h3 a,
+	html .page div.product .product_title,
+	html .woocommerce div.product .product_title,
+	html.woocommerce #content div.product .product_title,
+	html .woocommerce-page div.product .product_title,
+	html.woocommerce-page #content div.product .product_title,
+	.woocommerce form .form-row#ship-to-different-address label.checkbox,.item-portfolio .post-title a,.wd-intro h2,.wd-intro h1{
+		font-family:@font_body;
+		font-weight:400;
+	}
+	
+	input[type="color"], input[type="email"],input[type="number"],input[type="password"],input[type="tel"],input[type="text"],select,textarea{
+		font-family:@font_body;
+	}
+	h1,h2,h3,h4,h5,h6,.woocommerce-page #content .cart-collaterals .coupon_wrapper label,.wd-title,.shortcode_wd_banner .shortcode_banner_simple_bullet{
+		font-family:@font_heading;
+		font-weight:600;
+	}
+	pre,blockquote,body code{
+		font-family:@font_body;
+	}
+	button.btn,a.btn{
+		font-family:@font_body;
+	}
+	#header .nav > .main-menu > ul.menu > li > a > span,#header .nav > .main-menu > div.menu > ul > li > a,.mobile-main-menu .menu > li > a{
+		font-family:@font_menu;
+	}
+	#header .nav > .main-menu > ul.menu > li.wd-fly-menu li a,#header .nav > .main-menu > ul.menu > li.wd-mega-menu a{
+		font-family:@font_sub_menu;
+	}
+	
+	.widget-container .price .amount,.widget-container .amount,span.amount{
+		font-family:@font_price;
+		letter-spacing:0.25px;
+		font-weight:600;
+		font-size:18px;
+		line-height:22px;
+	}
+	
+	.button span,button.button, a.button, input[type^=submit], html .woocommerce a.button, html .woocommerce button.button, html .woocommerce input.button, html .woocommerce #respond input#submit, .woocommerce #content input.button, html .woocommerce-page a.button, html .woocommerce-page button.button, .woocommerce-page input.button, html .woocommerce-page #respond input#submit, html .woocommerce-page #content input.button, html .woocommerce-page #content input.button, html .woocommerce #content table.cart input.button, html input.button,
+	
+	.wd_tini_account_wrapper .wd_tini_account_control > a,.regis-account-wrapper a,.shopping-cart .wd_tini_cart_control a,.mobile_cart_container,.cart_dropdown .total span.title,.cart_dropdown .go_to_shopping_cart a,#em_quickshop_handler #qs_inner2.qs_text_btn,ul.nav-tabs li a,.feature.shortcode .feature_title,.feature.shortcode .feature_title a,.feature.shortcode .feature_content_wrapper a.view_more,.footer-menu ul li a,.wd_mobile_account,html body #header .menu .woocommerce .products .product .list_add_to_cart a,ul.list-posts li .post-info-content .read-more,.widget_customrecent p.title > a,.widget_multitab  ul.tabs-post-list li p.title > a,.widget_recent_comments_custom ul li .comment-author a,.widget_recent_comments_custom ul li .detail .comment-meta a,.widget_multitab ul.tabs-comments-list li .detail .comment-meta span a,body .btn,body .accordion-heading a.accordion-toggle,html .progress .bar,.added_to_cart.wc-forward,
+	html .woocommerce #content table.shop_table thead th, 
+	html .woocommerce-page #content table.shop_table thead th,
+	#content .woocommerce table.shop_table thead th,
+	#content .woocommerce .cart-collaterals .cart_totals > table th,
+	.woocommerce #content .cart-collaterals .cart_totals > table th,
+	.woocommerce-page #content .cart-collaterals .cart_totals > table th,#entry-author-info #author-description .author-name [rel^=author],.related > .title,.related .owl-wrapper .related-item .title,body.woocommerce #content div.product .woocommerce-tabs ul.tabs li a,body .woocommerce div.product .woocommerce-tabs ul.tabs li a, body.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li a, body.woocommerce-page div.product .woocommerce-tabs ul.tabs li a,
+	html .woocommerce div.product form.cart .variations label, 
+	html .woocommerce #content div.product form.cart .variations label, 
+	html .woocommerce-page div.product form.cart .variations label, 
+	html .woocommerce-page #content div.product form.cart .variations label,
+	html .page div.product form.cart .variations label,#comments .commentlist li .divcomment .divcomment-inner .reply a,
+	html .woocommerce .after_checkout_form form.checkout_coupon .question_coupon, 
+	html .woocommerce-page .after_checkout_form form.checkout_coupon .question_coupon,
+	body.woocommerce-page form.checkout table.shop_table tfoot th,
+	body .woocommerce table.shop_table tfoot th,#portfolio-galleries .portfolio-filter li a,.wd_button_loadmore_wrapper input.btn_load_more,
+	
+	.body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a,
+	
+	.body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a,
+	
+	#content div.product .summary.entry-summary .yith-wcwl-wishlistexistsbrowse a,
+	.woocommerce #content div.product .summary.entry-summary .yith-wcwl-wishlistexistsbrowse a,
+	.woocommerce-page #content div.product .summary.entry-summary .yith-wcwl-wishlistexistsbrowse a,
+	
+	#content div.product .summary.entry-summary .yith-wcwl-wishlistaddedbrowse a,
+	.woocommerce #content div.product .summary.entry-summary .yith-wcwl-wishlistaddedbrowse a,
+	.woocommerce-page #content div.product .summary.entry-summary .yith-wcwl-wishlistaddedbrowse a,
+	
+	#content div.product .summary.entry-summary .add_to_wishlist ,
+	.woocommerce #content div.product .summary.entry-summary .add_to_wishlist ,
+	.woocommerce-page #content div.product .summary.entry-summary .add_to_wishlist,
+
+	#content div.product .summary.entry-summary .add_to_wishlist.button ,
+	.woocommerce #content div.product .summary.entry-summary .add_to_wishlist.button ,
+	.woocommerce-page #content div.product .summary.entry-summary .add_to_wishlist.button,
+	
+	#content div.product .summary.entry-summary .compare.button,
+	.woocommerce #content div.product .summary.entry-summary .compare.button,
+	.woocommerce-page #content div.product .summary.entry-summary .compare.button,
+	
+	#content div.product .summary.entry-summary .compare,
+	.woocommerce #content div.product .summary.entry-summary .compare,
+	.woocommerce-page #content div.product .summary.entry-summary .compare,
+	
+	.body-wrapper .products .product .product-meta-wrapper .add_to_wishlist ,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist ,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist,
+
+	.body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button ,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button ,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button,
+	
+	#content .products .product .product-meta-wrapper .add_to_wishlist ,
+	.woocommerce #content.products .product .product-meta-wrapper .add_to_wishlist ,
+	.woocommerce-page #content .products .product .product-meta-wrapper .add_to_wishlist,
+
+	#content .products .product .product-meta-wrapper .add_to_wishlist.button ,
+	.woocommerce #content .products .product .product-meta-wrapper .add_to_wishlist.button ,
+	.woocommerce-page #content .products .product .product-meta-wrapper .add_to_wishlist.button,
+		
+	.body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare.button,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare.button,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare.button,
+	
+	.body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare,
+	
+	#header .nav > .main-menu > ul.menu > li.wd-fly-menu li .yith-wcwl-add-to-wishlist a, #header .nav > .main-menu > ul.menu > li.wd-mega-menu .yith-wcwl-add-to-wishlist a,
+	#header .nav > .main-menu > ul.menu > li.wd-fly-menu li .wd_compare_wrapper a, #header .nav > .main-menu > ul.menu > li.wd-mega-menu .wd_compare_wrapper a,table.compare-list tr.remove td > a,
+	html body table.compare-list tr th
+	{
+		font-family:@font_body_second;
+	}
+	
+	/* BOLD BODY FONT 2*/
+	button.button, a.button, input[type^=submit], html .woocommerce a.button, html .woocommerce button.button, html .woocommerce input.button, html .woocommerce #respond input#submit, .woocommerce #content input.button, html .woocommerce-page a.button, html .woocommerce-page button.button, .woocommerce-page input.button, html .woocommerce-page #respond input#submit, html .woocommerce-page #content input.button, html .woocommerce-page #content input.button, html .woocommerce #content table.cart input.button, html input.button,
+
+	html  div.product span.price,
+	html  div.product p.price,
+	html .body-wrapper .woocommerce .products .product .price, 
+	html .woocommerce-page .body-wrapper .products .product .price,
+	html .woocommerce div.product span.price, 
+	html .woocommerce div.product p.price, 
+	html .woocommerce #content div.product span.price, 
+	html .woocommerce #content div.product p.price, 
+	html .woocommerce-page div.product span.price, 
+	html .woocommerce-page div.product p.price, 
+	html .woocommerce-page #content div.product span.price, 
+	html .woocommerce-page #content div.product p.price,
+	html .products .product .price,
+	html div.product .price del,
+	html .body-wrapper .woocommerce .products .product .price del, 
+	html .woocommerce-page .body-wrapper .products .product .price del,
+	html .woocommerce div.product span.price del, 
+	html .woocommerce div.product p.price del, 
+	html .woocommerce #content div.product span.price del, 
+	html .woocommerce #content div.product p.price del, 
+	html .woocommerce-page div.product span.price del, 
+	html .woocommerce-page div.product p.price del, 
+	html .woocommerce-page #content div.product span.price del, 
+	html .woocommerce-page #content div.product p.price del,
+	html .home #content div.product p.price del,.shopping-cart,.added_to_cart.wc-forward,
+	
+	#em_quickshop_handler #qs_inner2.qs_text_btn,
+	
+	ul.nav-tabs li.active a,
+	.feature.shortcode .feature_title,
+	.feature.shortcode .feature_title a,
+	.feature.shortcode .feature_content_wrapper a.view_more,
+	.footer-menu ul li a,
+	.widget_recent_post_slider .entry-title > a.read-more,.wd_mobile_account,ul.list-posts li .post-info-content .read-more,
+	.widget_customrecent p.title > a,.widget_multitab  ul.tabs-post-list li p.title > a,
+	.widget_recent_comments_custom ul li .comment-author a,.widget_recent_comments_custom ul li .detail .comment-meta a,
+	.widget_multitab ul.tabs-comments-list li .detail .comment-meta span a,body .btn,body .accordion-heading a.accordion-toggle,html .progress .bar,
+	html .woocommerce #content table.shop_table thead th, 
+	html .woocommerce-page #content table.shop_table thead th,
+	#content .woocommerce table.shop_table thead th,
+	#header .nav > .main-menu > ul.menu > li.current_page_item > a > span, #header .nav > .main-menu > ul.menu > li.current-menu-item > a > span,.woocommerce .woocommerce-message a.button, .woocommerce-page .woocommerce-message a.button, .woocommerce-message a.button,.single-content .single-post .post-title .heading-title,#entry-author-info #author-description .author-name [rel^=author],.related > .title,.related .owl-wrapper .related-item .title,.short-description-title, body.woocommerce #content div.product .woocommerce-tabs ul.tabs li.active a, body .woocommerce div.product .woocommerce-tabs ul.tabs li.active a, body.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active a, body.woocommerce-page div.product .woocommerce-tabs ul.tabs li.active a,body.woocommerce-page div.product ul.nav-tabs li.active a h2,body.woocommerce div.product ul.nav-tabs li.active a h2,#content .woocommerce table.my_account_orders td.order-actions a.button, .woocommerce #content table.my_account_orders td.order-actions a.button, .woocommerce-page #content table.my_account_orders td.order-actions a.button,#comments .commentlist li .divcomment .divcomment-inner .reply a,html .woocommerce .custom_category_shortcode .products li .product_upsells h4.heading-title,html .woocommerce .after_checkout_form form.checkout_coupon .question_coupon, 
+	html .woocommerce-page .after_checkout_form form.checkout_coupon .question_coupon,body form.checkout #payment #place_order,.shortcode_wd_banner h3.banner-title,html .woocommerce-page .widget-container .button,html .woocommerce .widget-container .button,html .woocommerce-page .widget-container input[type^=submit],html .woocommerce .widget-container input[type^=submit],ul.special-category-widget-area li:first-child h3.widget-title.heading-title,.widget_multitab ul.nav-tabs li a,
+	
+	#content div.product .summary.entry-summary .yith-wcwl-wishlistexistsbrowse a,
+	.woocommerce #content div.product .summary.entry-summary .yith-wcwl-wishlistexistsbrowse a,
+	.woocommerce-page #content div.product .summary.entry-summary .yith-wcwl-wishlistexistsbrowse a,
+	
+	#content div.product .summary.entry-summary .yith-wcwl-wishlistaddedbrowse a,
+	.woocommerce #content div.product .summary.entry-summary .yith-wcwl-wishlistaddedbrowse a,
+	.woocommerce-page #content div.product .summary.entry-summary .yith-wcwl-wishlistaddedbrowse a,
+	
+	#content div.product .summary.entry-summary .add_to_wishlist ,
+	.woocommerce #content div.product .summary.entry-summary .add_to_wishlist ,
+	.woocommerce-page #content div.product .summary.entry-summary .add_to_wishlist,
+
+	#content div.product .summary.entry-summary .add_to_wishlist.button ,
+	.woocommerce #content div.product .summary.entry-summary .add_to_wishlist.button ,
+	.woocommerce-page #content div.product .summary.entry-summary .add_to_wishlist.button,
+	
+	#content div.product .summary.entry-summary .compare.button,
+	.woocommerce #content div.product .summary.entry-summary .compare.button,
+	.woocommerce-page #content div.product .summary.entry-summary .compare.button,
+	
+	#content div.product .summary.entry-summary .compare,
+	.woocommerce #content div.product .summary.entry-summary .compare,
+	.woocommerce-page #content div.product .summary.entry-summary .compare,
+	
+	.body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a,
+	.body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a,
+	
+	
+	.body-wrapper .products .product .product-meta-wrapper .add_to_wishlist ,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist ,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist,
+
+	.body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button ,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button ,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button,
+	
+	#content .products .product .product-meta-wrapper .add_to_wishlist ,
+	.woocommerce #content.products .product .product-meta-wrapper .add_to_wishlist ,
+	.woocommerce-page #content .products .product .product-meta-wrapper .add_to_wishlist,
+
+	#content .products .product .product-meta-wrapper .add_to_wishlist.button ,
+	.woocommerce #content .products .product .product-meta-wrapper .add_to_wishlist.button ,
+	.woocommerce-page #content .products .product .product-meta-wrapper .add_to_wishlist.button,
+	
+	.body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare.button,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare.button,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare.button,
+	.body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare,
+	
+	.mobile_cart_container,.wd_tini_account_wrapper .wd_tini_account_control > a,.shopping-cart .wd_tini_cart_control a,#collapse-login-regis h4.heading-title,.ft-col h3,#footer h3.widget-title,h2.title,h1.heading-title.page-title,ul.special-category-widget-area h3.widget-title.heading-title,#customer_login div.title > h3,.order-detail-title, .custom-detail-title,.addresses .title h3,html body table.compare-list tr th
+	{
+		font-weight:600;
+	}
+	
+	#header .nav > .main-menu > ul.menu > li > a > span, #header .nav > .main-menu > ul.menu > li > a > span,
+	body.woocommerce-page form.checkout table.shop_table tfoot th,
+	body .woocommerce table.shop_table tfoot th{
+		font-weight:500;
+	}
+	
+	.shopping-cart .cart_item,#content .woocommerce .cart-collaterals .cart_totals > table th,
+	.woocommerce #content .cart-collaterals .cart_totals > table th,.cart_totals  .cart-subtotal .amount,
+	.woocommerce-page #content .cart-collaterals .cart_totals > table th,#content .woocommerce .cart-collaterals .cart_totals > table td strong span.amount, .woocommerce #content .cart-collaterals .cart_totals > table td strong span.amount, .woocommerce-page #content .cart-collaterals .cart_totals > table td strong span.amount,.woocommerce ul#shipping_method .amount, .woocommerce-page ul#shipping_method .amount,html .woocommerce div.product form.cart .variations label, 
+	html .woocommerce #content div.product form.cart .variations label, 
+	html .woocommerce-page div.product form.cart .variations label, 
+	html .woocommerce-page #content div.product form.cart .variations label,
+	html .page div.product form.cart .variations label,.shortcode_wd_banner .shortcode_banner_simple_bullet span.lb_small,.cart_dropdown .total span.title,.woocommerce .widget_shopping_cart .total strong, .woocommerce-page .widget_shopping_cart .total strong, .woocommerce-page.widget_shopping_cart .total strong, .woocommerce.widget_shopping_cart .total strong{
+		font-weight:500;
+	}
+	
+	.shortcode_wd_banner h4.banner-title.small,.shortcode_wd_banner h4.banner-sub-title,#portfolio-galleries .portfolio-filter li a{
+		font-weight:400;
+	}
+	
+	/* ====================================================================================================*/
+	/* ======================================= BACKGROUND COLOR ============================================== */
+	/* ====================================================================================================*/
+	.header-container,.wd_tini_cart_wrapper.loading-cart:after{
+		background:@wd_header_top_background;
+	}
+	
+	.shopping-cart .cart_dropdown .dropdown_body:before,.wd_tini_account_wrapper .form_wrapper:before{
+		color:@wd_header_top_background;
+	}
+	
+	/* ====================================================================================================*/
+	/* ======================================= CUSTOM COLOR ============================================== */
+	/* ====================================================================================================*/
+	
+	body{
+		color:@wd_text_color;
+	}
+	
+	h1,h3,h4,h5,h6,ul.nav-tabs li a:hover h2,ul.nav-tabs li.active a h2,ul.nav-tabs li a:hover,ul.nav-tabs li.active a,.feature.shortcode .feature_title a,#footer .widget_subscriptions .widget_title_wrapper h3,.wd-title{
+		color:@wd_heading_color;
+	}
+	
+	.feature.shortcode .feature_content_wrapper:hover{
+		border-color:@wd_heading_color;
+	}
+	
+	.feature.shortcode .feature_content_wrapper a.view_more .bg_view_more{
+		background-color:@wd_heading_color;
+	}
+	
+	h3{
+		color:@wd_heading_color+#1e1e1e;
+	}
+	h4{
+		color:@wd_text_color;
+	}
+	h5,h6{
+		color:@wd_heading_color+#464646;
+	}
+	
+	pre,body code,.woocommerce #reviews #comments ol.commentlist li .meta, .woocommerce-page #reviews #comments ol.commentlist li .meta,select{
+		border-color:@wd_border_color;
+		color:@wd_text_color;
+	}
+	
+	textarea::-webkit-input-placeholder,
+	textarea::-moz-placeholder,
+	textarea:-moz-placeholder,
+	textarea:-ms-input-placeholder,
+	input::-webkit-input-placeholder,
+	input::-moz-placeholder,
+	input:-moz-placeholder,
+	input:-ms-input-placeholder{
+		color:@wd_text_color !important;
+	}
+	
+	pre:hover,body code:hover{
+		background:@wd_border_color + #191919;
+	}
+	
+	ul li,ol li{
+		color:@wd_text_color - #969696;
+	}
+	
+	ul li li,ol li li,blockquote,ul li .textwidget, ol li .textwidget{
+		color:@wd_text_color;
+	}
+	
+	html .woocommerce #content .products .product .onsale, html .woocommerce-page #content .products .product .onsale, html .woocommerce .products .product .onsale,
+	html .woocommerce .images span.onsale, 
+	html .woocommerce-page .images span.onsale,
+	html .pp_woocommerce .images span.onsale{
+		background-color:@wd_feature_sale;
+	}
+	html .woocommerce #content .products .product span.featured, html .woocommerce-page #content .products .product span.featured, html .woocommerce .products .product span.featured{
+		background-color:@wd_feature_new;
+	}
+	
+	/************** HEADER ********************/
+	.wd_tini_account_wrapper .wd_tini_account_control > a,.regis-account-wrapper a,.regis-account-wrapper,.shopping-cart .wd_tini_cart_control a,.wd_tini_cart_wrapper.loading-cart:before,#header .visible-phone.cart-drop-icon:before,#header .visible-phone.login-drop-icon:before,.wd_mobile_account a,.mobile_cart_container a,#header form[id^="searchform-"] .bg_search input[id^="searchsubmit-"],#header form[id^="searchform-"] .bg_search input[id^="s-"]{
+		color:@wd_header_top_text_color;
+	}
+	
+	.wd_tini_account_wrapper .wd_tini_account_control > a:hover,.regis-account-wrapper a:hover,.shopping-cart:hover .wd_tini_cart_control a,#header .header_search:hover span,#header .shopping-cart-wrapper:hover .visible-phone.cart-drop-icon:before,#header .wd_tini_account_control:hover .visible-phone.login-drop-icon:before,.wd_mobile_account a:hover,.mobile_cart_container a:hover,#header form[id^="searchform-"] .bg_search input[id^="searchsubmit-"]:hover{
+		color:@wd_header_top_text_hover;
+	}
+	
+	.shopping-cart .cart_dropdown ul.cart_list li a.remove{
+		border-color:@wd_border_color;
+	}
+	
+	.woocommerce table.cart a.remove:hover, .woocommerce-page table.cart a.remove:hover, .woocommerce #content table.cart a.remove:hover, .woocommerce-page #content table.cart a.remove:hover,#content .woocommerce table.cart a.remove:hover,.shopping-cart .cart_dropdown ul.cart_list li a.remove:hover{
+		color:#ffffff;
+		background-color:@wd_header_top_background;
+		border-color:@wd_header_top_background;
+	}
+	
+	.shopping-cart .cart_dropdown ul.cart_list li a.remove{
+		color:#c8c8c8;
+	}
+	.comment-body p,.comment-body,
+	#comments .commentlist li .divcomment .divcomment-inner .comment-author cite a,#comments .commentlist li .divcomment .divcomment-inner .comment-meta a,
+	#footer .second-footer-widget-area a, #footer .first-footer-widget-area a, #footer .third-footer-widget-area a,
+	div.product.wd_quickshop .entry-summary span.price del .amount,
+	div.product.wd_quickshop .entry-summary p.price del .amount,
+	html .woocommerce div.product .entry-summary span.price del .amount,
+	html .woocommerce div.product .entry-summary p.price del .amount,
+	html .woocommerce #content div.product .entry-summary span.price del .amount,
+	html .woocommerce #content div.product .entry-summary p.price del .amount,
+	html .woocommerce-page div.product .entry-summary span.price del .amount,
+	html .woocommerce-page div.product .entry-summary p.price del.amount,
+	html .woocommerce-page #content div.product .entry-summary span.price del .amount,
+	html .woocommerce-page #content div.product .entry-summary p.price del .amount,
+	html .page div.product .entry-summary span.price del .amount,
+	div.product.wd_quickshop .entry-summary span.price del .amount,
+	div.product.wd_quickshop .entry-summary span.price del,
+	div.product.wd_quickshop .entry-summary p.price del,
+	html .woocommerce div.product .entry-summary span.price del,
+	html .woocommerce div.product .entry-summary p.price del,
+	html .woocommerce #content div.product .entry-summary span.price del,
+	html .woocommerce #content div.product .entry-summary p.price del,
+	html .woocommerce-page div.product .entry-summary span.price del,
+	html .woocommerce-page div.product .entry-summary p.price del,
+	html .woocommerce-page #content div.product .entry-summary span.price del,
+	html .woocommerce-page #content div.product .entry-summary p.price del,
+	html .page div.product .entry-summary span.price del,
+
+	
+	body.woocommerce-page div.product ul.nav-tabs li a h2,body.woocommerce div.product ul.nav-tabs li a h2,
+	body.woocommerce-page div.product ul.nav-tabs li:before,body.woocommerce div.product ul.nav-tabs li:before,
+	.woocommerce-page div.product .woocommerce-tabs ul.tabs li:before,
+	.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li:before,
+	.woocommerce div.product .woocommerce-tabs ul.tabs li:before,
+	.woocommerce #content div.product .woocommerce-tabs ul.tabs li:before,
+	body .woocommerce .nav-tabs li:before,body .woocommerce-page .nav-tabs li:before,
+	.related .date-time,
+	.woocommerce #content div.product p.stock, .woocommerce div.product p.stock, .woocommerce-page #content div.product p.stock, .woocommerce-page div.product p.stock,html .woocommerce-page #content div.product .add_new_review a,html .woocommerce div.product .add_new_review,
+	.wd_product_categories a,div.product .tagcloud a,
+	html .woocommerce .woocommerce-breadcrumb a, #crumbs a,
+	.woocommerce ul#shipping_method label, .woocommerce-page ul#shipping_method label,
+	.woocommerce #content table.shop_table tbody tr.cart_item .product-thumbnail.product-name a, 
+	.woocommerce-page #content table.shop_table tbody tr.cart_item .product-thumbnail.product-name a,
+	#content .woocommerce table.shop_table tbody tr.cart_item .product-thumbnail.product-name a,
+	.price_slider_wrapper a,
+	body .woocommerce form.login .lost_password,
+	body.woocommerce-page form.login .lost_password,
+	body .woocommerce form.login .lost_password a,
+	body.woocommerce-page form.login .lost_password a,
+	body .woocommerce form.checkout_coupon .lost_password,
+	body.woocommerce-page form.checkout_coupon .lost_password,
+	body .woocommerce form.register .lost_password,
+	body.woocommerce-page form.register .lost_password,
+	.cart_dropdown ul.cart_list li .cart_item_wrapper > a,ul.nav-tabs li a,ul.nav-tabs li:before,#footer ul.footer-contact li.contact-mobile,.wd_tini_account_wrapper .form_wrapper_body > a,p.excerpt,.shortcode-recent-blogs > li .bottom-detail,ul.list-posts li  .short-content,.woocommerce .widget_price_filter .price_slider_amount .price_label,
+	/* BỘ BLOG DATE,COUNT,COMMENT */
+	ul.list-posts li .post-info-meta .author,ul.list-posts li .post-info-meta,
+	/* ALL WIDGET UL UL LI A */
+	.widget_categories ul li a,
+	.widget_nav_menu div ul li a, 
+	.widget_pages ul li a,
+	.widget_product_categories ul li a,
+	.widget_recent_entries ul li a,
+	.widget_custom_pages ul li  a,
+	/* PAGER */
+	.page_navi .wp-pagenavi span, .page_navi .wp-pagenavi a, .page_navi > .nav-content > .pager span span,
+	.page_navi > .nav-content a.first span span, .page_navi > .nav-content a.previous span span, .page_navi > .nav-content a.next span span, .page_navi > .nav-content a.last span span,
+	body.woocommerce nav.woocommerce-pagination ul li span.current,
+	body.woocommerce-page nav.woocommerce-pagination ul li span.current,
+	body.woocommerce #content nav.woocommerce-pagination ul li span.current,
+	body.woocommerce-page #content nav.woocommerce-pagination ul li span.current,
+	body.woocommerce nav.woocommerce-pagination ul li a:hover,
+	body.woocommerce-page nav.woocommerce-pagination ul li a:hover,
+	body.woocommerce #content nav.woocommerce-pagination ul li a:hover,
+	body.woocommerce-page #content nav.woocommerce-pagination ul li a:hover,
+	body.woocommerce nav.woocommerce-pagination ul li a:focus,
+	body.woocommerce-page nav.woocommerce-pagination ul li a:focus,
+	body.woocommerce #content nav.woocommerce-pagination ul li a:focus,
+	body.woocommerce-page #content nav.woocommerce-pagination ul li a:focus,
+	body.woocommerce nav.woocommerce-pagination ul li a.next,
+	body.woocommerce-page nav.woocommerce-pagination ul li a.next,
+	body.woocommerce #content nav.woocommerce-pagination ul li a.next,
+	body.woocommerce nav.woocommerce-pagination ul li a, body.woocommerce-page nav.woocommerce-pagination ul li a, body.woocommerce #content nav.woocommerce-pagination ul li a, body.woocommerce-page #content nav.woocommerce-pagination ul li a, body.woocommerce nav.woocommerce-pagination ul li span, body.woocommerce-page nav.woocommerce-pagination ul li span, body.woocommerce #content nav.woocommerce-pagination ul li span, body.woocommerce-page #content nav.woocommerce-pagination ul li span,
+	/* PRODUCT WIDGET LIST UL LI */
+	ul.product_list_widget li a, html .woocommerce ul.product_list_widget li a, html .woocommerce-page ul.product_list_widget li a, ul.cart_list li a, html .woocommerce ul.cart_list li a, html .woocommerce-page ul.cart_list li a, .widget_popular ul li .title a, html .woocommerce .widget_popular ul li .title a, .widget_hot_product ul li .title a, html .woocommerce .widget_hot_product ul li .title a, .widget_top_rated_products ul.product_list_widget li > a, html .woocommerce .widget_top_rated_products ul.product_list_widget li > a, .widget_recent_reviews ul.product_list_widget li > a, html .woocommerce .widget_recent_reviews ul.product_list_widget li > a,.woocommerce-page .widget_layered_nav ul li a,
+	/* TEXT IN INPUT */
+	#content .woocommerce .cart-collaterals .shipping_calculator select, .woocommerce #content .cart-collaterals .shipping_calculator select, .woocommerce-page #content .cart-collaterals .shipping_calculator select,
+	/* END TEXT IN PUT */
+	.woocommerce form .form-row#ship-to-different-address label.checkbox,.woocommerce #payment ul.payment_methods li label, .woocommerce-page #payment ul.payment_methods li label,
+	#portfolio-galleries .portfolio-filter li a,.cart_dropdown .total span.title,.woocommerce .widget_shopping_cart .total strong, .woocommerce-page .widget_shopping_cart .total strong, .woocommerce-page.widget_shopping_cart .total strong, .woocommerce.widget_shopping_cart .total strong,.widget-container .wd-categories li a,.product_list_widget li .quantity,.widget_tag_cloud .tagcloud a,.widget_product_tag_cloud .tagcloud a,body.woocommerce .woocommerce-ordering select, body.woocommerce-page .woocommerce-ordering select,.widget_woothemes_features .feature-content,
+	.woocommerce #content div.product .woocommerce-tabs ul.tabs li a, .woocommerce div.product .woocommerce-tabs ul.tabs li a, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li a, .woocommerce-page div.product .woocommerce-tabs ul.tabs li a,.woocommerce .widget_layered_nav ul small.count, .woocommerce-page .widget_layered_nav ul small.count,.chosen-container-single .chosen-single,.subscribe-email input,.widget_recent_post_slider .entry-desc
+	{
+		color:@wd_text_color;
+	}
+	
+	/* FOR DESCRIPTION GRID LIST */
+	html .woocommerce #main_content .products div[itemprop="description"], html body #main_content .products div[itemprop="description"], html body.woocommerce-page #main_content .products div[itemprop="description"],html .woocommerce #main_content .products div[itemprop="description"], html body #main_content .products div[itemprop="description"], html body.woocommerce-page #main_content .products div[itemprop="description"]{
+		color:@wd_text_color
+	}
+	
+	.price_slider_wrapper a:before{
+		background-color:@wd_text_color;
+	}
+	
+	.wd-blog-ft .title a,.widget_recent_post_slider .entry-title > a{
+		color:@wd_text_color - #303030;
+	}
+	
+	html .woocommerce .products .product .heading-title a{
+		color:@wd_product_name_color;
+	}
+	
+	.cart_dropdown ul.cart_list li .cart_item_wrapper > a:hover{
+		color:@wd_header_top_background;
+	}
+	
+	.related > .title,
+	html .woocommerce .products .product .heading-title a:hover,#crumbs .current,#header .nav > .main-menu > ul.menu > li a.title,ul.list-posts li .post-title .heading-title,#footer a.block-control:before,
+	/* FILLTER COLOR SIZE */
+	.woocommerce .widget_layered_nav_filters ul li.chosen a, .woocommerce-page .widget_layered_nav_filters ul li.chosen a,.woocommerce .widget-container.widget_layered_nav ul li.chosen a, .woocommerce-page .widget_layered_nav ul li.chosen a,.woocommerce-page .widget_layered_nav ul li a:hover,.woocommerce .widget_layered_nav_filters ul li.chosen a, .woocommerce-page .widget_layered_nav_filters ul li a:hover,.woocommerce .widget-container.widget_layered_nav ul li.chosen a,
+	
+	/* PAGER */
+	.page_navi .wp-pagenavi span:hover, .page_navi .wp-pagenavi a:hover,.page_navi > .nav-content > .pager:hover span span,.page_navi > .nav-content .next-phrase:hover,.page_navi > .nav-content .previous-phrase:hover,.page_navi > .nav-content a.first:hover span span,.page_navi > .nav-content a.previous:hover span span,.page_navi > .nav-content a.next:hover span span,.page_navi > .nav-content a.last:hover span span,.page_navi .wp-pagenavi span.current,.page_navi > .nav-content > .pager.current span span,
+	body.woocommerce nav.woocommerce-pagination ul li span.current,
+	body.woocommerce-page nav.woocommerce-pagination ul li span.current,
+	body.woocommerce #content nav.woocommerce-pagination ul li span.current,
+	body.woocommerce-page #content nav.woocommerce-pagination ul li span.current,
+	body.woocommerce nav.woocommerce-pagination ul li a:hover,
+	body.woocommerce-page nav.woocommerce-pagination ul li a:hover,
+	body.woocommerce #content nav.woocommerce-pagination ul li a:hover,
+	body.woocommerce-page #content nav.woocommerce-pagination ul li a:hover,
+	body.woocommerce nav.woocommerce-pagination ul li a:focus,
+	body.woocommerce-page nav.woocommerce-pagination ul li a:focus,
+	body.woocommerce #content nav.woocommerce-pagination ul li a:focus,
+	body.woocommerce-page #content nav.woocommerce-pagination ul li a:focus,
+	/* ALL CATEGORIES UL LI */
+	.widget_categories ul li > a:hover,
+	.widget_nav_menu ul li > a:hover,
+	.widget_pages ul li > a:hover,
+	.widget_custom_pages ul li > a:hover,
+	.widget_product_categories ul li > a:hover,
+	.widget_pages ul li.current_page_item > a,
+	.widget_product_categories ul li.current-cat > a,
+	.widget_nav_menu ul li.current_page_item > a,
+	.widget_categories li.current-cat > a,
+	.widget_custom_pages ul li.current_page_item > a,
+	/* PRODUCT WIDGET LIST UL LI */
+	ul.product_list_widget li a:hover, html .woocommerce ul.product_list_widget li a:hover, html .woocommerce-page ul.product_list_widget li a:hover, ul.cart_list li a:hover, html .woocommerce ul.cart_list li a:hover, html .woocommerce-page ul.cart_list li a:hover, .widget_popular ul li .title a:hover, html .woocommerce .widget_popular ul li .title a:hover, .widget_hot_product ul li .title a:hover, html .woocommerce .widget_hot_product ul li .title a:hover, .widget_top_rated_products ul.product_list_widget li > a:hover, html .woocommerce .widget_top_rated_products ul.product_list_widget li > a:hover, .widget_recent_reviews ul.product_list_widget li > a:hover, html .woocommerce .widget_recent_reviews ul.product_list_widget li > a:hover,
+	/* SPECIAL WIDGET AREA */
+	ul.special-category-widget-area .widget_price_filter h3.widget-title.heading-title,ul.special-category-widget-area .widget_layered_nav h3.widget-title.heading-title,ul.special-category-widget-area .widget_wd_pc_color_nav h3.widget-title.heading-title,
+	/* END SPECIAL */
+	#customer_login h2,html .woocommerce #customer_login.col2-set .col-1 label,html .woocommerce-page #customer_login.col2-set .col-1 label,
+	html .woocommerce #content table.shop_table thead th, 
+	html .woocommerce-page #content table.shop_table thead th,
+	#content .woocommerce table.shop_table thead th,
+	.woocommerce #content table.shop_table tbody tr.cart_item .product-thumbnail.product-name a:hover, 
+	.woocommerce-page #content table.shop_table tbody tr.cart_item .product-thumbnail.product-name a:hover,
+	#content .woocommerce table.shop_table tbody tr.cart_item .product-thumbnail.product-name a:hover,
+	.woocommerce #content table.shop_table tbody tr.cart_item td.product-subtotal .amount, 
+	.woocommerce-page #content table.shop_table tbody tr.cart_item td.product-subtotal .amount,
+	.woocommerce #content table.shop_table tbody tr.cart_item td.product-price .amount, 
+	.woocommerce-page #content table.shop_table tbody tr.cart_item td.product-price .amount,
+	#content .woocommerce  table.shop_table tbody tr.cart_item td.product-price .amount, 
+	#content .woocommerce table.shop_table tbody tr.cart_item td.product-subtotal .amount,
+
+	#content .woocommerce .cart-collaterals .shipping_calculator p, .woocommerce #content .cart-collaterals .shipping_calculator p, .woocommerce-page #content .cart-collaterals .shipping_calculator p,#content .woocommerce .cart-collaterals .cart_totals > table tr.total .amount,
+	.woocommerce #content .cart-collaterals .cart_totals > table tr.total .amount,
+	.woocommerce-page #content .cart-collaterals .cart_totals > table tr.total .amount,.woocommerce td.product-name dl.variation dt, .woocommerce-page td.product-name dl.variation dt,
+	body #content .woocommerce .cart-collaterals .cross-sells h2, .woocommerce #content .cart-collaterals .cross-sells h2, .woocommerce-page #content .cart-collaterals .cross-sells h2,
+	.wd_product_categories a:hover,div.product .tagcloud a:hover,html .woocommerce-page #content div.product .add_new_review a:hover,html .woocommerce div.product .add_new_review:hover,#entry-author-info #author-description .author-name [rel^=author],.short-description-title,.woocommerce .social_sharing.second .social_icon > div.pinterest span, .woocommerce-page .social_sharing.second .social_icon > div.pinterest span,.woocommerce .social_sharing.second .social_icon > div.mail span, .woocommerce-page .social_sharing.second .social_icon > div.mail span,.wd_product_categories span,.tagcloud .tag_heading,
+	html .woocommerce div.product form.cart .single_add_to_cart_wrapper .quantity-text, html .woocommerce #content div.product form.cart .single_add_to_cart_wrapper .quantity-text, html .woocommerce-page div.product form.cart .single_add_to_cart_wrapper .quantity-text, html .woocommerce-page #content div.product form.cart .single_add_to_cart_wrapper .quantity-text, html .page div.product form.cart .single_add_to_cart_wrapper .quantity-text,body.woocommerce-page #content div.product .woocommerce-tabs ul.tabs li a:hover,body .woocommerce #content div.product .woocommerce-tabs ul.tabs li a:hover,body.woocommerce-page div.product ul.nav-tabs li.active a h2,body.woocommerce div.product ul.nav-tabs li.active a h2,body.woocommerce-page div.product ul.nav-tabs li:hover a h2,body.woocommerce div.product ul.nav-tabs li:hover a h2,.woocommerce #content div.product .woocommerce-tabs ul.tabs li.active a, .woocommerce div.product .woocommerce-tabs ul.tabs li.active a, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active a, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active a,
+	html .woocommerce div.product form.cart .variations label, 
+	html .woocommerce #content div.product form.cart .variations label, 
+	html .woocommerce-page div.product form.cart .variations label, 
+	html .woocommerce-page #content div.product form.cart .variations label,
+	html .page div.product form.cart .variations label ,#footer .second-footer-widget-area a:hover, #footer .first-footer-widget-area a:hover, #footer .third-footer-widget-area a:hover,
+	#comments #comments-title,#respond #reply-title,#respond #commentform .label,html .woocommerce .custom_category_shortcode .products li .product_upsells h4.heading-title,
+	.woocommerce form .form-row label, .woocommerce-page form .form-row label,body .woocommerce #collapse-login-regis form.login .lost_password:hover, body.woocommerce-page #collapse-login-regis form.login .lost_password:hover,html .woocommerce .after_checkout_form form.checkout_coupon .question_coupon, 
+	html .woocommerce-page .after_checkout_form form.checkout_coupon .question_coupon,.woocommerce #payment ul.payment_methods li.active label, .woocommerce-page #payment ul.payment_methods li.active label,
+	body .woocommerce table.shop_table tbody tr.checkout_table_item td.product-price, body.woocommerce-page table.shop_table tbody tr.checkout_table_item td.product-price,
+	body .woocommerce table.shop_table tbody tr.checkout_table_item td.product-total, body.woocommerce-page table.shop_table tbody tr.checkout_table_item td.product-total,body div.pp_woocommerce .pp_nav,body div.pp_woocommerce .pp_description,
+	.nav-tabs > .active > a, .nav-tabs > .active > a:hover,#portfolio-galleries .portfolio-filter li a:hover,#portfolio-galleries .portfolio-filter li.active a,.wpcf7,strong,.woocommerce .featured_product_wrapper .featured_product_wrapper_meta .heading-title,.comment .comment-author,.order_table_item .amount,#order_review .amount,
+	#content .woocommerce .order_details tfoot td, .woocommerce #content .order_details tfoot td, .woocommerce-page #content .order_details tfoot td,.widget-container .wd-categories li a:hover,.wd-heading-title,.widget_tag_cloud .tagcloud a:hover,.widget_product_tag_cloud .tagcloud a:hover,#content .woocommerce .cart-collaterals .cart_totals > table tr.total th, .woocommerce #content .cart-collaterals .cart_totals > table tr.total th, .woocommerce-page #content .cart-collaterals .cart_totals > table tr.total th,.widget-container.widget_recent_entries a:hover,
+	body.woocommerce-page form.checkout table.shop_table tfoot .total th, body .woocommerce table.shop_table tfoot .total th,
+	.woocommerce #content table.shop_table.wishlist_table tr td, .woocommerce-page #content table.shop_table.wishlist_table tr td, #content .woocommerce table.shop_table.wishlist_table tr td,#yith-wcwl-form h2
+	{
+		color:@wd_theme_color_primary;
+	}
+	
+	
+	button.button, a.button, input[type^=submit], html .woocommerce a.button, html .woocommerce button.button, html .woocommerce input.button, html .woocommerce #respond input#submit, .woocommerce #content input.button, html .woocommerce-page a.button, html .woocommerce-page button.button, .woocommerce-page input.button, html .woocommerce-page #respond input#submit, html .woocommerce-page #content input.button, html .woocommerce-page #content input.button, html .woocommerce #content table.cart input.button, html input.button,
+	
+	html .cart_dropdown.drop_down_container a.button.checkout,.woocommerce .woocommerce-message a.button, .woocommerce-page .woocommerce-message a.button, .woocommerce-message a.button,#comments .commentlist li .divcomment .divcomment-inner .reply a,#control-panel-main p.button-save button, #control-panel-main p.button-clear button,html .woocommerce #customer_login.col2-set .col-1 form.login input.button:hover, html .woocommerce-page #customer_login.col2-set .col-1 form.login input.button:hover,body .wd_logout.btn,#footer .widget_subscriptions button.button,.woocommerce #payment #place_order, .woocommerce-page #payment #place_order,table.compare-list tr.remove td > a{
+		background-color:@wd_button_background;
+		color:@wd_button_text;
+		letter-spacing:0.6px;
+	}
+	
+	.woocommerce #content input.button:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce-page #content input.button:hover, .woocommerce-page #respond input#submit:hover, .woocommerce-page a.button:hover, .woocommerce-page button.button:hover, .woocommerce-page input.button:hover,.woocommerce .woocommerce-message a.button:hover, .woocommerce-page .woocommerce-message a.button:hover, .woocommerce-message a.button:hover,
+	
+	#comments .commentlist li .divcomment .divcomment-inner .reply a:hover,
+	#control-panel-main p.button-save button:hover, #control-panel-main p.button-clear button:hover,html .woocommerce #customer_login.col2-set .col-1 form.login input.button, html .woocommerce-page #customer_login.col2-set .col-1 form.login input.button,body .wd_logout.btn:hover,#footer .widget_subscriptions button.button:hover,.woocommerce #payment #place_order:hover, .woocommerce-page #payment #place_order:hover,table.compare-list tr.remove td > a:hover
+	{
+		background-color:@wd_button_background_hover;
+		color:@wd_button_text_hover;
+	}
+	
+	.cart_dropdown .go_to_shopping_cart a{
+		background-color:@wd_theme_color_primary;
+		color:@wd_button_text_hover;
+		letter-spacing:0.6px;
+	}
+	
+	
+	/* BORDER FOR ALL WIDGET SIDERBAR */
+	.widget-container > ul,.woocommerce .widget_layered_nav ul, .woocommerce-page .widget_layered_nav ul,.widget-container.widget_multitab #popular-tab,.widget-container #wp-calendar,
+	.widget-container .features,body .widget-container .widget_shopping_cart_content,html .woocommerce .widget_shopping_cart .total,html .woocommerce-page .widget_shopping_cart .total,.widget_shopping_cart .total,.widget_shopping_cart .total,.widget-container #searchform,.widget-container form[id^="searchform-"] ,.widget-container.widget_text  .wid-text,
+	.widget_price_filter > form,.widget-container .alphabet-products,.widget_product_tag_cloud .tagcloud,
+	.widget_recent_post_slider .wd_recent_post_widget_wrapper,.widget_tag_cloud .tagcloud,.widget_flickr .wrap,.widget_social .social-icons,.widget_subscriptions input.subscribe_email,.widget_subscriptions .subscribe_widget,.widget-container .testimonials-list,.widget_nav_menu div,.widget-container,.widget_multitab .tab-content ul,.accordion-tabs.wd-widget-multitabs-accordion .accordion-inner,.woocommerce ul.special-category-widget-area > li,.woocommerce ul.special-category-widget-area > li:first-child,
+	/* PAGER */
+	.page_navi > .nav-content a.first span span, .page_navi > .nav-content a.previous span span, .page_navi > .nav-content a.next span span, .page_navi > .nav-content a.last span span,
+	body.woocommerce nav.woocommerce-pagination ul li a,
+	body.woocommerce-page nav.woocommerce-pagination ul li a,
+	body.woocommerce #content nav.woocommerce-pagination ul li a,
+	body.woocommerce-page #content nav.woocommerce-pagination ul li a,
+	body.woocommerce nav.woocommerce-pagination ul li a.prev, body.woocommerce-page nav.woocommerce-pagination ul li a.prev, body.woocommerce #content nav.woocommerce-pagination ul li a.prev, body.woocommerce nav.woocommerce-pagination ul li a.next, body.woocommerce-page nav.woocommerce-pagination ul li a.next, body.woocommerce #content nav.woocommerce-pagination ul li a.next,
+	body.woocommerce nav.woocommerce-pagination ul li span,
+	body.woocommerce-page nav.woocommerce-pagination ul li span,
+	body.woocommerce #content nav.woocommerce-pagination ul li span,
+	body.woocommerce-page #content nav.woocommerce-pagination ul li span,
+	.page_navi .wp-pagenavi a.previouspostslink,.page_navi .wp-pagenavi a.nextpostslink,
+	.page_navi,body.woocommerce nav.woocommerce-pagination ul li a.next, body.woocommerce-page nav.woocommerce-pagination ul li a.next, body.woocommerce #content nav.woocommerce-pagination ul li a.next,
+	body.woocommerce nav.woocommerce-pagination, 
+	body.woocommerce-page nav.woocommerce-pagination, 
+	body.woocommerce #content nav.woocommerce-pagination, 
+	body.woocommerce-page #content nav.woocommerce-pagination,
+	/* END PAGER */
+	.tags_social,
+	.track_order p.note,.lost_reset_password p.note,
+	#customer_login h2,
+	div.list_carousel .slider_control > a.prev,div.list_carousel .slider_control > a.next,
+	body.page div.product div.images div.thumbnails a,
+	body.woocommerce div.product div.images div.thumbnails a,
+	body.woocommerce-page div.product div.images div.thumbnails a,
+	body.woocommerce #content div.product div.images div.thumbnails a,
+	body.woocommerce-page #content div.product div.images div.thumbnails a,
+	body.page div.product div.images a.woocommerce-main-image img,
+	body.woocommerce div.product div.images a.woocommerce-main-image img,
+	body.woocommerce-page div.product div.images a.woocommerce-main-image img,
+	body.woocommerce #content div.product div.images a.woocommerce-main-image img,
+	body.woocommerce-page #content div.product div.images a.woocommerce-main-image img,
+	body.woocommerce-page #content .shop_table.my_account_orders tbody tr td.order-number,
+	body #content .woocommerce .shop_table.my_account_orders tbody tr td.order-actions,
+	body.woocommerce-page #content .shop_table.my_account_orders tbody tr td.order-actions,.single-content .single-post,
+	#content .woocommerce .order_details .order_table_item td, .woocommerce #content .order_details .order_table_item td, .woocommerce-page #content .order_details .order_table_item td,#content .woocommerce > #order_review table td, .woocommerce #content .woocommerce > #order_review table td, .woocommerce-page #content .woocommerce > #order_review table td,.shopping-cart .cart_dropdown,#content .woocommerce table.cart a.remove, .woocommerce-page #content table.cart a.remove, .woocommerce #content table.cart a.remove, .woocommerce-page #content table.cart a.remove,.feature.shortcode .feature_content_wrapper
+	{
+		border-color:@wd_border_color;
+	}
+	
+	body #content .woocommerce .shop_table.my_account_orders tbody tr.last td ,
+	body.woocommerce-page #content .shop_table.my_account_orders tbody tr.last td{
+		border-bottom-color:@wd_border_color !important;
+	}
+	
+	html .woocommerce #content table.shop_table thead th, 
+	html .woocommerce-page #content table.shop_table thead th,
+	#content .woocommerce table.shop_table thead th,
+	html .page div.product .product_title,
+	html .woocommerce div.product .product_title,
+	html.woocommerce #content div.product .product_title,
+	html .woocommerce-page div.product .product_title,
+	html.woocommerce-page #content div.product .product_title,
+	html .woocommerce #content table.shop_table thead th, html .woocommerce-page #content table.shop_table thead th{
+		border-bottom-color:@wd_theme_color_primary !important;
+	}
+	
+	#container .gridlist-toggle a#list,#container .gridlist-toggle a#grid,.track_order p.note:before,.lost_reset_password p.note:before,#customer_login h2:after,.woocommerce .social_sharing .social_icon > div a img, .woocommerce-page .social_sharing .social_icon > div a img,.woocommerce .social_sharing.second .social_icon > div.pinterest a:before, .woocommerce-page .social_sharing.second .social_icon > div.pinterest a:before,#comments .commentlist li .divcomment .divcomment-inner .comment-meta:before,
+	
+	/* CHECK OUT */
+	body form.checkout .accordion-heading a.accordion-toggle.collapsed,body #accordion-checkout-details .accordion-heading a.accordion-toggle.collapsed,body.error404 .alert-info,.shopping-cart .cart_dropdown ul.cart_list li a.remove,html .woocommerce #reviews #comments ol.commentlist li .comment_container, 
+	html .woocommerce-page #reviews #comments ol.commentlist li .comment_container,#content .woocommerce table.cart a.remove, .woocommerce-page #content table.cart a.remove, .woocommerce #content table.cart a.remove, .woocommerce-page #content table.cart a.remove,.woocommerce > .featured_product_slider_wrapper.shortcode_slider .slider_control .next,.featured_product_slider_wrapper.shortcode_slider .slider_control .next,.woocommerce > .featured_product_slider_wrapper.shortcode_slider .slider_control .prev,.featured_product_slider_wrapper.shortcode_slider .slider_control .prev
+	{
+		background-color:@wd_border_color;
+	}
+	
+	.woocommerce .social_sharing .social_icon > div a:hover img, .woocommerce-page .social_sharing .social_icon > div a:hover img,.woocommerce .social_sharing.second .social_icon > div.pinterest a:hover:before, .woocommerce-page .social_sharing.second .social_icon > div.pinterest a:hover:before,.woocommerce > .featured_product_slider_wrapper.shortcode_slider .slider_control .next:hover,.featured_product_slider_wrapper.shortcode_slider .slider_control .next:hover,.woocommerce > .featured_product_slider_wrapper.shortcode_slider .slider_control .prev:hover,.featured_product_slider_wrapper.shortcode_slider .slider_control .prev:hover{
+		background-color:@wd_border_color_hover;
+	}
+	
+	div.list_carousel .slider_control > a.next:before,div.list_carousel .slider_control > a.next:after,div.list_carousel .slider_control > a.prev:before,div.list_carousel .slider_control > a.prev:after{
+		color:@wd_border_color;
+	}
+	
+	.testimonial-item,#entry-author-info,.footer-testimonial{
+		background:@wd_testimonial_background;
+	}
+	
+	/* PRODUCT */
+	html body .woocommerce .products .product_big_layout .product:hover .product_item_wrapper,
+	html body .woocommerce .products .product:hover .product_item_wrapper, 
+	html .woocommerce-page .products .product:hover .product_item_wrapper,
+	html body.woocommerce .products .product:hover .product_item_wrapper, 
+	html .woocommerce-page .products .product:hover .product_item_wrapper,
+	/* END PRODUCT */
+	html .woocommerce .products .product .list_add_to_cart_wrapper, html .woocommerce-page .products .product .list_add_to_cart_wrapper,.shortcode-recent-blogs > li .bottom-detail,
+	.woocommerce .featured_product_wrapper .featured_product_wrapper_meta h3.heading-title,.woocommerce .featured_product_slider_wrapper .featured_product_slider_wrapper_meta h3,.woocommerce-page .featured_product_slider_wrapper .featured_product_slider_wrapper_meta h3,.woocommerce .featured_categories_slider_wrapper .featured_product_slider_wrapper_meta h3, .woocommerce-page .featured_categories_slider_wrapper .featured_product_slider_wrapper_meta h3,.tabbable .nav-tabs,body .accordion-heading,body #content .woocommerce .cart-collaterals .cross-sells h2, .woocommerce #content .cart-collaterals .cross-sells h2, .woocommerce-page #content .cart-collaterals .cross-sells h2,.related > .title,div.product .short-description,.woocommerce .social_sharing.second, .woocommerce-page .social_sharing.second,body.woocommerce #content div.product .woocommerce-tabs ul.tabs, body .woocommerce div.product .woocommerce-tabs ul.tabs, body.woocommerce-page #content div.product .woocommerce-tabs ul.tabs, body.woocommerce-page div.product .woocommerce-tabs ul.tabs,body.woocommerce-page div.product ul.nav-tabs,body.woocommerce div.product ul.nav-tabs,#comments  #comments-title,#respond #reply-title,.custom_category_shortcode .custom-category-title,html .woocommerce .products .product.wd_product_feature, html .woocommerce-page .products .product.wd_product_feature,.woocommerce .products .product_upsells ul li a:hover,html .woocommerce .custom_category_shortcode .products li .product_upsells h4.heading-title:before,body .woocommerce #payment div.payment_box,body.woocommerce-page #payment div.payment_box,html .woocommerce .after_checkout_form form.checkout_coupon, 
+	html .woocommerce-page .after_checkout_form form.checkout_coupon,
+	body .woocommerce #payment ul.payment_methods,body.woocommerce-page #payment ul.payment_methods,
+	body.woocommerce #content form.checkout table.shop_table td, body.woocommerce-page #content form.checkout table.shop_table td, body .woocommerce form.cart table.shop_table td,
+	/* BORDER DEFALT */
+	.wd_tini_account_wrapper .form_drop_down:before,
+	#content .woocommerce .cart-collaterals .coupon_wrapper input#coupon_code, .woocommerce #content .cart-collaterals .coupon_wrapper input#coupon_code, .woocommerce-page #content .cart-collaterals .coupon_wrapper input#coupon_code,html .woocommerce #content table.shop_table thead th, 
+	html .woocommerce-page #content table.shop_table thead th,
+	#content .woocommerce table.shop_table thead th,
+	.woocommerce #content table.shop_table tbody tr.cart_item td, 
+	.woocommerce-page #content table.shop_table tbody tr.cart_item td,
+	.woocommerce #content table.shop_table tbody tr.cart_item td:first-child, 
+	.woocommerce-page #content table.shop_table tbody tr.cart_item td:first-child, 
+	#content .woocommerce table.shop_table tbody tr.cart_item td:first-child,
+	#content .woocommerce table.shop_table tbody tr.cart_item td,.woocommerce #content table.shop_table tbody td.actions, .woocommerce-page #content table.shop_table tbody td.actions, #content .woocommerce table.shop_table tbody td.actions,#portfolio-galleries .portfolio-filter,.wd-heading-title,ul.list-posts li .post-info-meta,
+	.cart_dropdown ul.cart_list,html .woocommerce #main_content .products.list .product .product_thumbnail_wrapper:hover, html .woocommerce-page #main_content .products.list .product .product_thumbnail_wrapper a:hover{
+		border-color:@wd_border_color - #141414;
+	}
+	
+	html .woocommerce #main_content .products.list  .product .product_thumbnail_wrapper:hover, html .woocommerce-page #main_content .products.list  .product .product_thumbnail_wrapper:hover,.related > .title:before{
+		border-color:@wd_border_color - #141414;
+	}
+	
+	
+	.woocommerce .featured_product_wrapper .featured_product_wrapper_meta h3.heading-title:after,.woocommerce .featured_product_slider_wrapper .featured_product_slider_wrapper_meta h3:after,.woocommerce-page .featured_product_slider_wrapper .featured_product_slider_wrapper_meta h3:after,.woocommerce .featured_categories_slider_wrapper .featured_product_slider_wrapper_meta h3:after, .woocommerce-page .featured_categories_slider_wrapper .featured_product_slider_wrapper_meta h3:after,.tabbable > ul > li.active:after,body .accordion-heading a.accordion-toggle:after,
+	
+	body #main_content .products.grid:before,
+	body.woocommerce  #main_content .products.grid:before,body #main_content .woocommerce .products.list:before,
+	body.woocommerce-page #main_content .products.grid:before,body.woocommerce-page #main_content .products.list:before,body #content .woocommerce .cart-collaterals .cross-sells h2:before,.woocommerce #content .cart-collaterals .cross-sells h2:before, .woocommerce-page #content .cart-collaterals .cross-sells h2:before,.related > .title:after,.woocommerce #content div.product .woocommerce-tabs ul.tabs li.active:after, .woocommerce div.product .woocommerce-tabs ul.tabs li.active:after, .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active:after, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active:after,body.woocommerce-page div.product ul.nav-tabs li.active:after,body.woocommerce div.product ul.nav-tabs li.active:after,#comments  #comments-title:after,#respond #reply-title:after,.custom_category_shortcode .custom-category-title:after, .related > .title:before, body .woocommerce #payment div.payment_box:after, body.woocommerce-page #payment div.payment_box:after,
+	#portfolio-galleries .portfolio-filter li.active:after,.wd-heading-title:after,#comments .commentlist li .divcomment .divcomment-inner .comment-meta:before
+	{
+		background-color:@wd_border_color - #141414;
+	}
+	
+	.fa{
+		color:@wd_border_color - #141414;
+	}
+	
+	/* PRPDUCT BIG LAY OUT*/
+	html  #container-main .woocommerce .big .products .product:hover .product_item_wrapper,
+	html body.woocommerce #container-main .big .products .product:hover .product_item_wrapper, 
+	html body.woocommerce-page #container-main .big .products .product:hover .product_item_wrapper,
+	
+	/* END */
+	.testimonial-item:hover .avartar,#container .gridlist-toggle a.active#grid:before,#container .gridlist-toggle a.active#list:before,#container .gridlist-toggle a#grid:hover:before,#container .gridlist-toggle a#list:hover:before,
+	body.page div.product div.images div.thumbnails a:hover,
+	body.woocommerce div.product div.images div.thumbnails a:hover,
+	body.woocommerce-page div.product div.images div.thumbnails a:hover,
+	body.woocommerce #content div.product div.images div.thumbnails a:hover,
+	body.woocommerce-page #content div.product div.images div.thumbnails a:hover,
+	/* PAGER */
+	.page_navi > .nav-content a.first span span:hover, .page_navi > .nav-content a.previous span span:hover, .page_navi > .nav-content a.next span span:hover, .page_navi > .nav-content a.last span span:hover,body.woocommerce nav.woocommerce-pagination ul li a.next:hover,
+	body.woocommerce-page nav.woocommerce-pagination ul li a.next:hover,
+	body.woocommerce #content nav.woocommerce-pagination ul li a.next:hover,
+	body.woocommerce nav.woocommerce-pagination ul li a.prev:hover,
+	body.woocommerce-page nav.woocommerce-pagination ul li a.prev:hover,
+	body.woocommerce #content nav.woocommerce-pagination ul li a.prev:hover,
+	.page_navi .wp-pagenavi a.previouspostslink:hover,.page_navi .wp-pagenavi a.nextpostslink:hover,
+	.featured_categories_slider_wrapper li a:hover img,div.wd-box-feature,
+	#entry-author-info #author-description #author-avatar:hover img,
+	#comments .commentlist li .divcomment .divcomment-inner .avarta:hover img,
+	.featured_categories_slider_wrapper img:hover{
+		border-color:@wd_theme_color_primary;
+	}
+	
+	/* COLOR BUTTON ADD TO CART */
+	
+	.woocommerce .products .product .product-meta-wrapper .list_add_to_cart a,
+	.woocommerce-page .products .product .product-meta-wrapper .list_add_to_cart a,.wd_tini_account_wrapper #wp-submit,ul.list-posts li .post-info-content .read-more,.woocommerce .products .product .product-meta-wrapper .added_to_cart.wc-forward:hover,html .woocommerce-page .widget-container .button,html .woocommerce .widget-container .button,html .woocommerce-page .widget-container input[type^=submit],html .woocommerce .widget-container input[type^=submit],.woocommerce #content table.shop_table.wishlist_table tr td.product-add-to-cart a.button, .woocommerce-page #content table.shop_table.wishlist_table tr td.product-add-to-cart a.button, #content .woocommerce table.shop_table.wishlist_table tr td.product-add-to-cart a.button,.woocommerce table.compare-list .add-to-cart td a
+	{
+		background-color:@wd_button_cart_background;
+		color:@wd_button_cart_text;
+	}
+	
+	.woocommerce .products .product .product-meta-wrapper .list_add_to_cart a:hover,
+	.woocommerce-page .products .product .product-meta-wrapper .list_add_to_cart a:hover,
+	.wd_tini_account_wrapper #wp-submit:hover,ul.list-posts li .post-info-content .read-more:hover,.woocommerce .products .product .product-meta-wrapper .added_to_cart.wc-forward,html .woocommerce-page .widget-container .button:hover,html .woocommerce .widget-container .button:hover,html .woocommerce-page .widget-container input[type^=submit]:hover,html .woocommerce .widget-container input[type^=submit]:hover,
+	.woocommerce #content table.shop_table.wishlist_table tr td.product-add-to-cart a.button:hover, .woocommerce-page #content table.shop_table.wishlist_table tr td.product-add-to-cart a.button:hover, #content .woocommerce table.shop_table.wishlist_table tr td.product-add-to-cart a.button:hover,.woocommerce table.compare-list .add-to-cart td a:hover
+	{
+		color:@wd_button_cart_text_hover;
+		background-color:@wd_button_cart_background_hover;
+	}
+	
+
+	.woocommerce #content div.product .button.alt:hover, .woocommerce-page #content div.product .button.alt .button.alt:hover,
+	.woocommerce  div.product .button.alt:hover, .woocommerce-page  div.product .button.alt .button.alt:hover,html div.product .button.alt:hover{
+		background-color:@wd_button_cart_background !important;
+		color:@wd_button_cart_text !important;
+	}
+	
+	.woocommerce #content div.product .button.alt, .woocommerce-page #content div.product .button.alt .button.alt,
+	.woocommerce  div.product .button.alt, .woocommerce-page  div.product .button.alt .button.alt,html div.product .button.alt
+	{
+		color:@wd_button_cart_text_hover !important;
+		background-color:@wd_button_cart_background_hover !important;
+	}
+	
+	/* WISHLIST AND COMPARE */
+	#content .products .product .product-meta-wrapper .add_to_wishlist ,
+	.woocommerce #content.products .product .product-meta-wrapper .add_to_wishlist ,
+	.woocommerce-page #content .products .product .product-meta-wrapper .add_to_wishlist,
+
+	#content .products .product .product-meta-wrapper .add_to_wishlist.button ,
+	.woocommerce #content .products .product .product-meta-wrapper .add_to_wishlist.button ,
+	.woocommerce-page #content .products .product .product-meta-wrapper .add_to_wishlist.button,
+	
+	.body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button ,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist ,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist,
+
+	.body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button ,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button ,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button,
+	
+	.body-wrapper .products .product .product-meta-wrapper .compare.button,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .compare.button,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .compare.button,
+	
+	.body-wrapper .products .product .product-meta-wrapper .compare,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .compare,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .compare,
+	
+	#content div.product .summary.entry-summary .yith-wcwl-wishlistexistsbrowse a,
+	.woocommerce #content div.product .summary.entry-summary .yith-wcwl-wishlistexistsbrowse a,
+	.woocommerce-page #content div.product .summary.entry-summary .yith-wcwl-wishlistexistsbrowse a,
+	
+	#content div.product .summary.entry-summary .yith-wcwl-wishlistaddedbrowse a,
+	.woocommerce #content div.product .summary.entry-summary .yith-wcwl-wishlistaddedbrowse a,
+	.woocommerce-page #content div.product .summary.entry-summary .yith-wcwl-wishlistaddedbrowse a,
+	
+	#content div.product .summary.entry-summary .add_to_wishlist ,
+	.woocommerce #content div.product .summary.entry-summary .add_to_wishlist ,
+	.woocommerce-page #content div.product .summary.entry-summary .add_to_wishlist,
+
+	#content div.product .summary.entry-summary .add_to_wishlist.button ,
+	.woocommerce #content div.product .summary.entry-summary .add_to_wishlist.button ,
+	.woocommerce-page #content div.product .summary.entry-summary .add_to_wishlist.button,
+	
+	#content div.product .summary.entry-summary .compare.button,
+	.woocommerce #content div.product .summary.entry-summary .compare.button,
+	.woocommerce-page #content div.product .summary.entry-summary .compare.button,
+	
+	#content div.product .summary.entry-summary .compare,
+	.woocommerce #content div.product .summary.entry-summary .compare,
+	.woocommerce-page #content div.product .summary.entry-summary .compare,
+	
+	.body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a,
+	
+	.body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a,
+	
+	.body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a:before,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a:before ,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a:before,
+	
+	.body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a:before,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a:before,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a:before,
+	
+	.body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare.button:before,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare.button:before,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare.button:before,
+	
+	.body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare:before,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare:before,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare:before,
+	
+	.body-wrapper .products .product .product-meta-wrapper .add_to_wishlist:before ,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist:before ,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist:before,
+
+	.body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button:before ,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button:before ,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button:before,
+	
+	.body-wrapper div.product .summary.entry-summary .yith-wcwl-add-to-wishlist .add_to_wishlist:before,
+	.woocommerce .body-wrapper div.product .summary.entry-summary .yith-wcwl-add-to-wishlist .add_to_wishlist:before,
+	.woocommerce-page .body-wrapper div.product .summary.entry-summary .yith-wcwl-add-to-wishlist .add_to_wishlist:before,
+
+	.body-wrapper div.product .summary.entry-summary .yith-wcwl-add-to-wishlist .add_to_wishlist.button:before,
+	.woocommerce .body-wrapper div.product .summary.entry-summary .yith-wcwl-add-to-wishlist .add_to_wishlist.button:before,
+	.woocommerce-page .body-wrapper div.product .summary.entry-summary .yith-wcwl-add-to-wishlist .add_to_wishlist.button:before,
+	
+	#content div.product .summary.entry-summary .wd_compare_wrapper .compare:before,
+	.woocommerce #content div.product .summary.entry-summary .wd_compare_wrapper .compare:before,
+	.woocommerce-page #content div.product .summary.entry-summary .wd_compare_wrapper .compare:before,
+
+	#content div.product .summary.entry-summary .compare.button:before,
+	.woocommerce #content div.product .summary.entry-summary .compare.button:before,
+	.woocommerce-page #content div.product .summary.entry-summary .compare.button:before
+	{
+		color:@wd_button_cart_background !important;
+	}
+
+	#content .products .product .product-meta-wrapper .add_to_wishlist:hover ,
+	.woocommerce #content.products .product .product-meta-wrapper .add_to_wishlist:hover ,
+	.woocommerce-page #content .products .product .product-meta-wrapper .add_to_wishlist:hover,
+
+	#content .products .product .product-meta-wrapper .add_to_wishlist.button:hover ,
+	.woocommerce #content .products .product .product-meta-wrapper .add_to_wishlist.button:hover ,
+	.woocommerce-page #content .products .product .product-meta-wrapper .add_to_wishlist.button:hover,
+	
+	.body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button:hover ,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist:hover ,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist:hover,
+
+	.body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button:hover ,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button:hover ,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button:hover,
+	
+	.body-wrapper .products .product .product-meta-wrapper .compare.button:hover
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .compare.button:hover,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .compare.button:hover,
+	
+	.body-wrapper .products .product .product-meta-wrapper .compare:hover,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .compare:hover,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .compare:hover,
+	
+	#content div.product .summary.entry-summary .yith-wcwl-wishlistexistsbrowse a:hover,
+	.woocommerce #content div.product .summary.entry-summary .yith-wcwl-wishlistexistsbrowse a:hover,
+	.woocommerce-page #content div.product .summary.entry-summary .yith-wcwl-wishlistexistsbrowse a:hover,
+	
+	#content div.product .summary.entry-summary .yith-wcwl-wishlistaddedbrowse a:hover,
+	.woocommerce #content div.product .summary.entry-summary .yith-wcwl-wishlistaddedbrowse a:hover,
+	.woocommerce-page #content div.product .summary.entry-summary .yith-wcwl-wishlistaddedbrowse a:hover,
+	
+	#content div.product .summary.entry-summary .add_to_wishlist:hover ,
+	.woocommerce #content div.product .summary.entry-summary .add_to_wishlist:hover ,
+	.woocommerce-page #content div.product .summary.entry-summary .add_to_wishlist:hover,
+
+	#content div.product .summary.entry-summary .add_to_wishlist.button:hover ,
+	.woocommerce #content div.product .summary.entry-summary .add_to_wishlist.button:hover ,
+	.woocommerce-page #content div.product .summary.entry-summary .add_to_wishlist.button:hover,
+	
+	#content div.product .summary.entry-summary .compare.button:hover,
+	.woocommerce #content div.product .summary.entry-summary .compare.button:hover,
+	.woocommerce-page #content div.product .summary.entry-summary .compare.button:hover,
+	
+	#content div.product .summary.entry-summary .compare:hover,
+	.woocommerce #content div.product .summary.entry-summary .compare:hover,
+	.woocommerce-page #content div.product .summary.entry-summary .compare:hover,
+	
+	.body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a:hover,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a:hover,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a:hover,
+	
+	.body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a:hover,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a:hover,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a:hover,
+	
+	.body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a:hover:before,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a:hover:before ,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistexistsbrowse a:hover:before,
+	
+	.body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a:hover:before,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a:hover:before,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-wishlistaddedbrowse a:hover:before,
+	
+	.body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare.button:hover:before,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare.button:hover:before,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare.button:hover:before,
+	
+	.body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare:hover:before,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare:hover:before,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .wd_compare_wrapper .compare:hover:before,
+	
+	.body-wrapper .products .product .product-meta-wrapper .add_to_wishlist:hover:before ,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist:hover:before ,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist:hover:before,
+
+	.body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button:hover:before ,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button:hover:before ,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .add_to_wishlist.button:hover:before,
+	
+	.body-wrapper div.product .summary.entry-summary .yith-wcwl-add-to-wishlist .add_to_wishlist:hover:before,
+	.woocommerce .body-wrapper div.product .summary.entry-summary .yith-wcwl-add-to-wishlist .add_to_wishlist:hover:before,
+	.woocommerce-page .body-wrapper div.product .summary.entry-summary .yith-wcwl-add-to-wishlist .add_to_wishlist:hover:before,
+
+	.body-wrapper div.product .summary.entry-summary .yith-wcwl-add-to-wishlist .add_to_wishlist.button:hover:before,
+	.woocommerce .body-wrapper div.product .summary.entry-summary .yith-wcwl-add-to-wishlist .add_to_wishlist.button:hover:before,
+	.woocommerce-page .body-wrapper div.product .summary.entry-summary .yith-wcwl-add-to-wishlist .add_to_wishlist.button:hover:before,
+	
+	#content div.product .summary.entry-summary .wd_compare_wrapper .compare:hover:before,
+	.woocommerce #content div.product .summary.entry-summary .wd_compare_wrapper .compare:hover:before,
+	.woocommerce-page #content div.product .summary.entry-summary .wd_compare_wrapper .compare:hover:before,
+
+	#content div.product .summary.entry-summary .compare.button:hover:before,
+	.woocommerce #content div.product .summary.entry-summary .compare.button:hover:before,
+	.woocommerce-page #content div.product .summary.entry-summary .compare.button:hover:before
+	{
+		color:@wd_button_cart_background_hover !important;
+	}
+	
+	.body-wrapper .products .product .product-meta-wrapper .yith-wcwl-add-to-wishlist:after,
+	.woocommerce .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-add-to-wishlist:after,
+	.woocommerce-page .body-wrapper .products .product .product-meta-wrapper .yith-wcwl-add-to-wishlist:after{
+		background-color:@wd_button_cart_background;
+	}
+	
+	/* END WISHLIST AND COMPARE */
+	/* QUICK SHOP COLOR */
+	#em_quickshop_handler #qs_inner2.qs_text_btn{
+		color:@wd_quickshop_text_color;
+		background:@wd_quickshop_background;
+	}
+	
+	ul.list-posts li .post-title .heading-title:hover,
+	html .woocommerce .woocommerce-breadcrumb a:hover, #crumbs a:hover,
+	body .woocommerce form.login .lost_password a:hover,
+	body.woocommerce-page form.login .lost_password a:hover,
+	body .woocommerce form.login .lost_password:hover,
+	body.woocommerce-page form.login .lost_password:hover,
+	body .woocommerce form.checkout_coupon .lost_password:hover,
+	body.woocommerce-page form.checkout_coupon .lost_password:hover,
+	body .woocommerce form.register .lost_password:hover,
+	body.woocommerce-page form.register .lost_password:hover,
+	h1.heading-title.page-title,h2,.testimonial-item a.title,.testimonial-item .job,.testimonial-item span.line,.widget_recent_post_slider .entry-title > a.read-more,#header .nav > .main-menu > ul.menu > li a.title:hover,body .author a,.comments-count .number,
+	#customer_login div.title > h3,
+	
+	html body #container-main .woocommerce .big .products .product .product-meta-wrapper > a:hover, html body.woocommerce #container-main .big .products .product .product-meta-wrapper a:hover, html body.woocommerce-page #container-main .big .products .product .product-meta-wrapper a:hover,div.list_carousel .slider_control > a.next:hover:before,div.list_carousel .slider_control > a.next:hover:after,div.list_carousel .slider_control > a.prev:hover:before,div.list_carousel .slider_control > a.prev:hover:after,html div.product .availability span, .woocommerce div.product .availability span, body.woocommerce #content div.product .availability span, body.woocommerce-page #content div.product .availability span,#entry-author-info #author-description .author-name [rel^=author]:hover,
+	/* BỘ BLOG DATE,COUNT,COMMENT */
+	ul.list-posts li .post-info-meta .author a,ul.list-posts li .post-info-meta .comments-count .number,
+	/* HOVER WIGET UL LI SIDEBAR */
+	.widget_archive ul li > a:hover,
+	.widget_meta ul li > a:hover,
+
+	.widget_categories > ul > li > a:hover,
+	.widget_nav_menu > ul > li > a:hover,
+	.widget_pages > ul > li > a:hover,
+	.widget_custom_pages > ul > li > a:hover,
+	.widget_product_categories > ul > li > a:hover,
+	.widget_pages > ul > li.current_page_item > a,
+	.widget_product_categories > ul > li.current-cat > a,
+	.widget_nav_menu > ul > li.current_page_item > a,
+	.widget_categories > ul >.current-cat > a,
+	.widget_custom_pages > ul > li.current_page_item > a,
+	.widget-container #wp-calendar thead,#wp-calendar tbody tr td.today
+
+	.widget_customrecent .author .name, .widget_customrecent .comment-number .number, .widget_multitab ul.tabs-post-list li .comment-number .number, .widget_multitab ul.tabs-post-list li .author .name,.widget_recent_comments_custom ul li .author .name,.widget_customrecent ul li .author .name,.tabs-comments-list li .author .name,.widget_tag_cloud .tagcloud a:hover,.widget_product_tag_cloud .tagcloud a:hover,.heading-title-block h3,.heading-title-block h4,.heading-title-block h5,.heading-title-block h6,
+	
+	/* PAGER */
+	.page_navi > .nav-content a.first span span:hover, .page_navi > .nav-content a.previous span span:hover, .page_navi > .nav-content a.next span span:hover, .page_navi > .nav-content a.last span span:hover,body.woocommerce nav.woocommerce-pagination ul li a.next:hover,
+	body.woocommerce-page nav.woocommerce-pagination ul li a.next:hover,
+	body.woocommerce #content nav.woocommerce-pagination ul li a.next:hover,
+	body.woocommerce nav.woocommerce-pagination ul li a.prev:hover,
+	body.woocommerce-page nav.woocommerce-pagination ul li a.prev:hover,
+	body.woocommerce #content nav.woocommerce-pagination ul li a.prev:hover,.page_navi .wp-pagenavi a.previouspostslink:hover,.page_navi .wp-pagenavi a.nextpostslink:hover,
+	#content .woocommerce table.my_account_orders td.order-status,
+	.woocommerce #content table.my_account_orders td.order-status,
+	.woocommerce-page #content table.my_account_orders td.order-status,#comments .commentlist li .divcomment .divcomment-inner .comment-author cite a:hover,#comments .commentlist li .divcomment .divcomment-inner .comment-meta a:hover,
+	/* END PAGE */
+	#collapse-login-regis h4.heading-title,body .woocommerce #collapse-login-regis form.login .lost_password, body.woocommerce-page #collapse-login-regis form.login .lost_password,#footer .widget_recent_post_slider .entry-title > a.read-more,.widget_recent_post_slider .entry-title > a.read-more,.wishlist_table tr td.product-stock-status span.wishlist-in-stock, html body table.compare-list tr th,table.compare-list .stock td span,a.wp_learn_more
+	{
+		color:@wd_theme_color_secondary;
+	}
+	
+	#container .gridlist-toggle a#grid.active,#container .gridlist-toggle a#list.active,#container .gridlist-toggle a#list:hover,#container .gridlist-toggle a#grid:hover,.woocommerce .widget-container.widget_price_filter .price_slider_wrapper .ui-widget-content, .woocommerce-page .widget-container.widget_price_filter .price_slider_wrapper .ui-widget-content,html div.pp_woocommerce .pp_close:hover,body div.pp_woocommerce a.pp_expand:hover, body div.pp_woocommerce a.pp_contract:hover,#feedback a.feedback-button:hover,.widget_recent_post_slider .entry-title > a.read-more:after,.yith-woocompare-widget ul.products-list a.remove:hover,#cboxClose:hover,table.compare-list tr.remove td > a .remove:hover{
+		background-color:@wd_theme_color_secondary;
+	}
+	
+	/* MUST HAVE */
+	#to-top.on a,#feedback a.feedback-button,
+	
+	/* AND MUST HAVE */
+	body .owl-theme .owl-controls .owl-page span,
+	.single-content .post-info-meta .author:before,.single-content .post-info-meta .comments-count:before,.single-content .post-info-meta .cat-links:after,
+	html .woocommerce-page #content div.product .add_new_review:before,html .woocommerce div.product .add_new_review:before,
+	#content .woocommerce .cart-collaterals .cart_totals h2 ,
+	.woocommerce #content .cart-collaterals .cart_totals h2 ,
+	.woocommerce-page #content .cart-collaterals .cart_totals h2,
+	#content .woocommerce .cart-collaterals .coupon_wrapper label, .woocommerce #content .cart-collaterals .coupon_wrapper label, .woocommerce-page #content .cart-collaterals .coupon_wrapper label,
+	#content .woocommerce  .cart-collaterals .shipping_calculator h2,
+	.woocommerce #content .cart-collaterals .shipping_calculator h2,
+	.woocommerce-page #content .cart-collaterals .shipping_calculator h2,
+	.heading-title-block h1,.heading-title-block h2,
+	html div.pp_woocommerce .pp_close,body div.pp_woocommerce a.pp_expand, body div.pp_woocommerce a.pp_contract,body div.pp_woocommerce .pp_previous:before,body div.pp_woocommerce .pp_next:before,
+	/* BỘ RECEN BLOG VÀ TAB */
+	.widget_customrecent  .author:before,.widget_multitab  ul.tabs-post-list li  .author:before,.widget_multitab .tabs-comments-list .author:before,.widget_recent_comments_custom .author:before,
+	.widget_customrecent  .comment-number:before,.widget_multitab  ul.tabs-post-list li  .comment-number:before,
+	/* ALL BLOG DATE,COUNT COMMENT,.. */
+	.shortcode-recent-blogs > li .bottom-detail .author:before,.shortcode-recent-blogs > li .bottom-detail .comments-count:before,ul.list-posts li .post-info-meta .author:before,ul.list-posts li .post-info-meta .comments-count:before,ul.list-posts li .post-info-meta .cat-links:before
+	/* END BLOG DATE,COUNT COMMENT,.. */
+	,.left-sidebar-content h3.widget-title,.right-sidebar-content h3.widget-title,.widget-container #wp-calendar caption,.alphabet-products ul li a:hover,body form.checkout .accordion-heading a.accordion-toggle.collapsed:hover,body #accordion-checkout-details .accordion-heading a.accordion-toggle.collapsed:hover,
+	body form.checkout .accordion-heading a.accordion-toggle,body #accordion-checkout-details .accordion-heading a.accordion-toggle,#control-panel-main a#wd-control-close:hover,#control-panel-main #wd-control-close.default-style.control-open:hover,html .woocommerce .woocommerce-breadcrumb .brn_arrow:after,#crumbs .brn_arrow:after,
+	body #control-panel-main .accordion-heading:hover,.yith-woocompare-widget ul.products-list a.remove,#cboxClose,table.compare-list tr.remove td > a .remove{
+		background-color:@wd_theme_color_primary;
+	}
+	
+	/* CUSTOM MENU MAIN */
+	
+	#header .header-middle,.header-middle-content .loading-cart:after{
+		background-color:@wd_menu_background;
+	}
+	#header .nav > .main-menu > ul.menu  > li.menu-item:after{
+		color:@wd_menu_background;
+	}
+	
+	#header .nav > .main-menu > ul.menu > li > a > span,#header .nav > div.menu > ul > li > a,#header .nav > .main-menu > ul.menu > li.parent > a:after, #header .nav > div > ul > li.parent > a:after,#header .nav .main-menu > ul.menu > li.parent > span.menu-drop-icon:before,.header-middle-content .loading-cart:before{
+		color:@wd_menu_text_color;
+	}
+	
+	
+	.sticky-wrapper.is-sticky .header-middle .shopping-cart:hover .wd_tini_cart_control a{
+		color:@wd_menu_text_color_hover !important;
+	}
+	
+	#header .nav > .main-menu > ul.menu > li:hover > a > span,#header .nav > div.menu > ul > li:hover > a,#header .nav > .main-menu > ul.menu > li.current_page_item > a > span, #header .nav > .main-menu > ul.menu > li.current-menu-item > a > span{
+		color:@wd_menu_text_color_hover;
+	}
+	#header .nav > .main-menu > ul.menu > li.wd-fly-menu ul.sub-menu:after,#header .nav > .main-menu > ul.menu > li > ul {
+		border-color:@wd_sub_menu_border;
+	}
+
+	#header .nav > .main-menu > ul.menu > li.wd-fly-menu li a,#header .nav > .main-menu > ul.menu div.categories a,.menu .textwidget a,a.link-sub:hover{
+		color:@wd_sub_menu_text_color;
+	}
+	#header .nav > .main-menu > ul.menu > li.wd-fly-menu li a:hover, #header .nav > .main-menu > ul.menu div.categories a:hover, .menu .wd-categories a:hover, #header .nav > .main-menu > ul.menu > li.wd-fly-menu li > a:hover > span, #header .nav > .main-menu > ul.menu > li.wd-fly-menu li.current-menu-item > a > span, #header .nav > .main-menu > ul.menu > li.wd-fly-menu li.current_page_item > a > span,#header .nav .main-menu > ul.menu > li li.parent:hover > span.menu-drop-icon:after,#header .nav .main-menu > ul.menu > li li.current_page_item > span.menu-drop-icon:after,a.link-sub,.menu .textwidget a:hover{
+		color:@wd_sub_menu_text_color_hover;
+	}
+	#header .nav > .main-menu > ul.menu > li.wd-fly-menu ul.sub-menu:after{
+		background-color:@wd_sub_menu_background;
+	}
+	
+	button.button,
+	a.button,input[type^=submit],
+	html .woocommerce a.button,
+	html .woocommerce button.button,
+	html .woocommerce input.button,
+	html .woocommerce #respond input#submit, 
+	.woocommerce #content input.button,
+	html .woocommerce-page a.button,
+	html .woocommerce-page button.button, 
+	.woocommerce-page input.button,
+	html .woocommerce-page #respond input#submit, 
+	html .woocommerce-page #content input.button,
+	html .woocommerce-page #content input.button, 
+	html .woocommerce #content table.cart input.button,
+	html input.button,body form.checkout #payment #place_order{
+		background:@wd_button_background;
+		color:@wd_button_text;
+	}
+	button.button:hover, a.button, input[type^=submit]:hover, html .woocommerce a.button:hover, html .woocommerce button.button:hover, html .woocommerce input.button:hover, html .woocommerce #respond input#submit:hover, .woocommerce #content input.button:hover, html .woocommerce-page a.button:hover, html .woocommerce-page button.button:hover, .woocommerce-page input.button:hover, html .woocommerce-page #respond input#submit:hover, html .woocommerce-page #content input.button:hover, html input.button:hover, body form.checkout #payment #place_order:hover{
+		background:@wd_button_background_hover;
+		color:@wd_button_text_hover;
+	}
+	
+	/* BORDER DEFALT */
+	.wd_tini_account_wrapper .form_drop_down:after,
+	input[type="color"], input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="text"],select,textarea,#footer .second-footer-widget-area > .container,
+	.quantity .minus,
+	body.woocommerce .quantity .minus,
+	body.woocommerce-page .quantity .minus,
+	body.woocommerce #content .quantity .minus,
+	body.woocommerce-page #content .quantity .minus,
+	body.page .quantity .minus,
+	.quantity .plus,
+	body.woocommerce .quantity .plus,
+	body.woocommerce-page .quantity .plus,
+	body.woocommerce #content .quantity .plus,
+	body.woocommerce-page #content .quantity .plus,
+	body.page .quantity .plus,
+	.woocommerce #content table.shop_table tbody tr.cart_item td.product-quantity input.qty, .woocommerce-page #content table.shop_table tbody tr.cart_item .quantity input.qty, #content .woocommerce table.shop_table tbody tr.cart_item .quantity input.qty,
+	div.product .quantity input.qty, body.woocommerce div.product .quantity input.qty, body.woocommerce-page div.product .quantity input.qty, body.woocommerce #content div.product .quantity input.qty, body.woocommerce-page #content div.product .quantity input.qty, #content .woocommerce div.product .quantity input.qty,
+	.single-content .single-post .post-title .single-navigation a[rel^=prev],
+	.single-content .single-post .post-title .single-navigation a[rel^=next],.single .navi-prev a,.single .navi-next a,.wd_button_loadmore_wrapper input.btn_load_more,
+	.woocommerce #content table.shop_table.wishlist_table tr td, .woocommerce-page #content table.shop_table.wishlist_table tr td, #content .woocommerce table.shop_table.wishlist_table tr td,.yith-woocompare-widget ul.products-list a.remove,table.compare-list th, table.compare-list td,.featured_product_slider_wrapper.shortcode_slider{
+		border-color:@wd_border_color;
+	}
+	
+	input[type="color"]:hover, input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="tel"]:hover, input[type="text"]:hover,select:hover,textarea:hover, input[type="color"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="tel"]:focus,input[type="text"]:focus,select:focus,textarea:focus,.woocommerce .products .product_upsells ul li a:hover,#content .woocommerce .cart-collaterals .coupon_wrapper input#coupon_code:hover,.woocommerce #content .cart-collaterals .coupon_wrapper input#coupon_code:hover,.woocommerce-page #content .cart-collaterals .coupon_wrapper input#coupon_code:hover,#content .woocommerce .cart-collaterals .coupon_wrapper input#coupon_code:focus,.woocommerce #content .cart-collaterals .coupon_wrapper input#coupon_code:focus,.woocommerce-page #content .cart-collaterals .coupon_wrapper input#coupon_code:focus,.quantity input.qty:hover, body.woocommerce .quantity input.qty:hover, body.woocommerce-page .quantity input.qty:hover, body.woocommerce #content .quantity input.qty:hover, body.woocommerce-page #content .quantity input.qty:hover, body.page .quantity input.qty:hover,.single-content .single-post .post-title .single-navigation a[rel^=prev]:hover,
+	.single-content .single-post .post-title .single-navigation a[rel^=next]:hover,.single .navi-prev:hover a,.single .navi-next:hover a,.wd_button_loadmore_wrapper input.btn_load_more:hover,.yith-woocompare-widget ul.products-list a.remove:hover
+	{
+		border-color:@wd_border_color_hover;
+	}
+	a:hover,.widget_recent_post_slider .entry-title > a:hover{
+		color:@wd_link_color_hover;
+	}
+	
+	/* ==========FOOTER=============== */
+	
+	.third-footer-widget-area{
+		background:@wd_footer_third_background;
+	}
+	
+	.wd_footer_end{
+		background:@wd_footer_end_background;
+	}
+	
+	#footer .wd_footer_end > div #copy-right .copyright{
+		color:@wd_footer_end_text;
+	}
+	
+	.footer-menu ul li a,#footer .wd_footer_end a{
+		color:@wd_footer_end_menu_text;
+	}
+	
+	.footer-menu ul li a:hover,#footer .wd_footer_end a:hover{
+		color:@wd_footer_end_menu_text_hover;
+	}
+	
+	
+	/* LINK */
+	a,.wd_tini_account_wrapper .form_wrapper_body label,.wd_tini_account_wrapper .form_wrapper_body > a:hover,#footer  h3.widget-title,.ft-col h3{
+		color:@wd_link_color;
+	}
+	
+	.shortcode-recent-blogs p.date-time,ul.list-posts li .time .entry-date,.widget_customrecent  .time,.widget_multitab  ul.tabs-post-list li .time,.widget_recent_comments_custom .time,.tabs-comments-list .time,.single-content .single-post .time .entry-date,
+	html .woocommerce-message,
+	html .woocommerce-info,
+	html .woocommerce .woocommerce-message,
+	html .woocommerce .woocommerce-info,
+	html .woocommerce-page .woocommerce-message,
+	html .woocommerce-page .woocommerce-info{
+		color:@wd_special_color;
+	}
+	
+	html .woocommerce-message,
+	html .woocommerce-info,
+	html .woocommerce .woocommerce-message,
+	html .woocommerce .woocommerce-info,
+	html .woocommerce-page .woocommerce-message,
+	html .woocommerce-page .woocommerce-info{
+		border-color:@wd_special_color;
+	}
+	
+	html body .woocommerce-message:after,html .woocommerce .woocommerce-message:after,html .woocommerce-page .woocommerce-message:after,html body .woocommerce-info:after,html .woocommerce .woocommerce-info:after,html .woocommerce-page .woocommerce-info:after{
+		background-color:@wd_special_color;
+	}
+	
+	#content .woocommerce .cart-collaterals .cart_totals .checkout-button, .woocommerce #content .cart-collaterals .cart_totals .checkout-button, .woocommerce-page #content .cart-collaterals .cart_totals .checkout-button{
+		background-color:@wd_special_color !important;
+	}
+	
+	input,textarea,.woocommerce #payment div.payment_box, .woocommerce-page #payment div.payment_box{
+		color:@wd_text_color;
+	}
+	.widget_tag_cloud .tagcloud a:hover,.widget_product_tag_cloud .tagcloud a:hover{
+		border-color:@wd_theme_color_primary;
+	}
+	
+	/* TAB CUSTOM COLOR */
+	.widget_multitab ul.nav-tabs li.ui-state-active a
+	{
+		color:@wd_theme_color_secondary;
+	}
+	
+	/* PRICE */
+	/* COLOR PRODUCT */
+	.product_list_widget li span.price,
+	html .products .product.sale .price,
+	html div.product form.cart .group_table td.price del .amount, html .woocommerce div.product form.cart .group_table td.price del .amount, html .woocommerce #content div.product form.cart .group_table td.price del .amount, html .woocommerce-page div.product form.cart .group_table td.price del .amount, html .woocommerce-page #content div.product form.cart .group_table td.price del .amount,
+	.shopping-cart .cart_dropdown ul.cart_list li .price del .amount,
+	html div.product .price del,
+	html .body-wrapper .woocommerce .products .product .price del, 
+	html .woocommerce-page .body-wrapper .products .product .price del,
+	html .woocommerce div.product span.price del, 
+	html .woocommerce div.product p.price del, 
+	html .woocommerce #content div.product span.price del, 
+	html .woocommerce #content div.product p.price del, 
+	html .woocommerce-page div.product span.price del, 
+	html .woocommerce-page div.product p.price del, 
+	html .woocommerce-page #content div.product span.price del, 
+	html .woocommerce-page #content div.product p.price del,
+	html .home #content div.product p.price del,
+	.widget-container .price del,.widget-container .price del .amount,.widget-container del,.widget-container .price del .amount,
+	html .body-wrapper .woocommerce .products .product .price, 
+	html .woocommerce-page .body-wrapper .products .product .price,
+	html .woocommerce div.product .summary.entry-summary span.price, 
+	html .woocommerce div.product .summary.entry-summary p.price, 
+	html .woocommerce #content div.product .summary.entry-summary span.price, 
+	html .woocommerce #content div.product .summary.entry-summary p.price, 
+	html .woocommerce-page div.product .summary.entry-summary span.price, 
+	html .woocommerce-page div.product .summary.entry-summary p.price, 
+	html .woocommerce-page #content div.product .summary.entry-summary span.price, 
+	html .woocommerce-page #content div.product .summary.entry-summary p.price,
+	
+	html div.product .summary.entry-summary p.price, 
+	
+	html .woocommerce div.product .products .product span.price, 
+	html .woocommerce div.product .products .product p.price, 
+	html .woocommerce #content div.product .products .product span.price, 
+	html .woocommerce #content div.product .products .product p.price, 
+	html .woocommerce-page div.product .products .product span.price, 
+	html .woocommerce-page div.product .products .product p.price, 
+	html .woocommerce-page #content div.product .products .product span.price, 
+	html .woocommerce-page #content div.product .products .product p.price,
+	
+	html .products .product .price,.cart_dropdown .total span,
+	.widget-container .price > .amount,
+	html .woocommerce ul.cart_list li > span.amount,
+	html .woocommerce ul.product_list_widget li > span.amount,
+	html .woocommerce-page ul.cart_list li > span.amount,
+	html .woocommerce-page ul.product_list_widget li > span.amount,
+	woocommerce ul.cart_list li .quantity  span.amount,
+	html .woocommerce ul.product_list_widget li .quantity span.amount,
+	.woocommerce-page #content .order_details tfoot td .amount,
+	#content .woocommerce .order_details tfoot td .amount,
+	body .woocommerce table.shop_table tfoot tr.total .amount,
+	body.woocommerce-page table.shop_table tfoot tr.total .amount,
+	html div.product.wd_quickshop form.cart .group_table td.price,.shopping-cart .cart_dropdown ul.cart_list li .price > .amount,
+	
+	html div.product form.cart .group_table td.price .amount, html .woocommerce div.product form.cart .group_table td.price .amount, html .woocommerce #content div.product form.cart .group_table td.price .amount, html .woocommerce-page div.product form.cart .group_table td.price .amount, html .woocommerce-page #content div.product form.cart .group_table td.price .amount,
+	#content .woocommerce table.my_account_orders td.order-total .amount, .woocommerce #content table.my_account_orders td.order-total .amount, .woocommerce-page #content table.my_account_orders td.order-total .amount,.product_list_widget li,.widget_popular ul li, .widget_hot_product ul li, html .widget-container.woocommerce ul.product_list_widget li, html .woocommerce-page .widget-container ul.cart_list li, html .woocommerce-page .widget-container ul.product_list_widget li, html .woocommerce ul.cart_list li, html .woocommerce-page ul.cart_list li,table.compare-list tr.price td,table.compare-list tr.price td del
+	{
+		color:@wd_text_price_color
+	}
+	
+	.widget-container .price > ins >.amount,
+	.widget-container .price > ins ,
+	html .woocommerce ul.cart_list li > ins > span.amount,
+	html .woocommerce ul.product_list_widget li > ins > span.amount,
+	html .woocommerce ul.product_list_widget li > ins,
+	html .woocommerce-page ul.cart_list li > ins > span.amount,
+	html .woocommerce-page ul.cart_list li > ins,
+	html .woocommerce-page ul.product_list_widget li > ins > span.amount,
+	.widget-container .price ins,.widget-container .price ins .amount,.widget-container ins,.widget-container .price ins .amount,
+	.woocommerce .products .product .price ins .amount,.woocommerce-page .products .product .price ins .amount,
+	html .pp_woocommerce .price ins, html .woocommerce .products .product .price ins, html .woocommerce-page .products .product .price ins, html .home .products .product .price ins,
+	table.compare-list tr.price td ins
+	{
+		color:@wd_text_price_sale_color;
+	}
+	/* RATING */
+	#content .woocommerce table.my_account_orders td.order-actions a.button,
+	.woocommerce #content table.my_account_orders td.order-actions a.button, 
+	.woocommerce-page #content table.my_account_orders td.order-actions a.button,
+	div.product div.summary .star-rating,
+	body.woocommerce div.product div.summary .star-rating,
+	body.woocommerce-page div.product div.summary .star-rating,
+	body.woocommerce #content div.product div.summary .star-rating,
+	body.woocommerce div.product div.summary .star-rating,
+	body.woocommerce-page div.product div.summary .star-rating,
+	body.woocommerce #content div.product div.summary .star-rating,
+	body.woocommerce-page #content div.product div.summary .star-rating,
+	body.page div.product div.summary .star-rating,.wd_quickshop .star-rating span,
+	.woocommerce p.stars a:after, .woocommerce-page p.stars a:after{
+		color:@wd_rating_color;
+	}
+	
+	.woocommerce .star-rating:before, .woocommerce-page .star-rating:before{
+		color:@wd_rating_color !important;
+	}
+	
+	html .woocommerce .products .product .star-rating,.woocommerce .star-rating span, .woocommerce-page .star-rating span{
+		color:@wd_rating_color;
+	}
+	
+	.wd_advertisement{
+		background-color:@wd_background_advertisement;
+	}
+	
+	/* PORTFOLIO */
+	#portfolio-container #portfolio-galleries-holder div.item-portfolio:hover .p-content{
+		border-color:@wd_border_portfolio_hover;
+	}
+	
+	.item-portfolio .thumb-image-hover .icons a{
+		background-color:@wd_background_button_portfolio;
+	}
+	
+	.item-portfolio .thumb-image-hover .icons a:hover{
+		background-color:@wd_background_button_portfolio_hover;
+	}
+	
+	.item-portfolio .post-title a{
+		color:@wd_link_title_portfolio;
+	}
+	
+	.item-portfolio .post-title a:hover
+	{
+		color:@wd_link_title_portfolio_hover;
+	}
+
+	
+	
+/**************************************** RESPONSIVE *****************************************/	
+
+/* MENU */
+	@media only screen and (max-device-width: 767px), only screen and (max-width: 767px){
+		body #header .nav .main-menu > ul.menu > li .one_half, body #header .nav .main-menu > ul.menu > li .one_third, body #header .nav .main-menu > ul.menu > li .two_third, body #header .nav .main-menu > ul.menu > li .one_fourth, body #header .nav .main-menu > ul.menu > li .three_fourth, body #header .nav .main-menu > ul.menu > li .one_fifth, body #header .nav .main-menu > ul.menu > li .two_fifth, body #header .nav .main-menu > ul.menu > li .three_fifth, body #header .nav .main-menu > ul.menu > li .four_fifth, body #header .nav .main-menu > ul.menu > li .one_sixth, body #header .nav .main-menu > ul.menu > li .three_sixth, body #header .nav .main-menu > ul.menu > li .one_sixth, body #header .nav .main-menu > ul.menu > li .five_sixth{
+			border-color:@wd_border_color;
+		}
+		.phone-header,.phone-header .toggle-menu-wrapper{
+			background-color:@wd_phone_background;
+		}
+		.mobile-main-menu .menu  li > ul li a{
+			color:@wd_phone_sub_text_color;
+		}
+		
+		.mobile-main-menu .menu > li > ul > li > a:hover,.mobile-main-menu .menu > li > ul > li.current-menu-item > a{
+			color:@wd_theme_color_secondary;
+		}
+		
+		.mobile-main-menu .menu > li > ul > li > ul li a:hover,.mobile-main-menu .menu > li > ul > li > ul li.current-menu-item > a {
+			color:@wd_phone_text_color;
+		}
+		
+		.mobile-main-menu .menu li a{
+			color:@wd_phone_text_color;
+		}
+		#header .header-container > .logo{
+			background-color:@wd_theme_color_primary;
+		}
+	}
+
+@media 
+only screen and (max-width: 1024px){
+
+		html body.woocommerce .featured_product_slider_wrapper.small .products .product .product_item_wrapper,
+		html body.woocommerce-page .featured_product_slider_wrapper.small .products .product  .product_item_wrapper,
+		html body .woocommerce .featured_product_slider_wrapper.small .products .product .product_item_wrapper{
+			border-color:@wd_border_color;
+		}
+		.feature.shortcode .feature_content_wrapper{
+			border-color:@wd_heading_color;
+		}
+		
+	}

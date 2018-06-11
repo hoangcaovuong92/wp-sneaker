@@ -1,0 +1,9 @@
+2018-06-06T09:31:56+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order_Item_Product::display() in D:\wamp64\www\wordpress\may96\WordPress_Sneaker\site\wp-content\themes\wp_woo_sneaker\woocommerce\order\order-details.php:119
+Stack trace:
+#0 D:\wamp64\www\wordpress\may96\WordPress_Sneaker\site\wp-content\plugins\woocommerce\includes\wc-core-functions.php(210): include()
+#1 D:\wamp64\www\wordpress\may96\WordPress_Sneaker\site\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2388): wc_get_template('order/order-det...', Array)
+#2 D:\wamp64\www\wordpress\may96\WordPress_Sneaker\site\wp-includes\class-wp-hook.php(286): woocommerce_order_details_table(3211)
+#3 D:\wamp64\www\wordpress\may96\WordPress_Sneaker\site\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 D:\wamp64\www\wordpress\may96\WordPress_Sneaker\site\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#5 D:\wamp64\www\wordpress\may96\WordPress_Sneaker\site\wp-content\themes\wp_woo_sneaker\woocommerce\myaccount\view-order.php(43): do
+
