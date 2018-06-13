@@ -11,3 +11,32 @@
 .cart_dropdown .total span.woocommerce-Price-currencySymbol{
 	display: inline;
 }
+
+/* Mobile */
+@media only screen and (max-width: 767px){
+	.phone-header-bar-wrapper .logo {
+	    position: static !important;
+	    clear: both;
+	}
+	.phone-header-bar-wrapper .toggle-menu-control-open:hover {
+	    cursor: pointer;
+	}
+	.phone-header-bar-wrapper .woocommerce-product-search{
+		float: right;
+    	padding-right: 10px;
+	}
+	.phone-header-bar-wrapper .woocommerce-product-search .search-field{
+		height: 30px;
+		line-height: 30px;
+		padding: 0 5px;
+	}
+	.phone-header-bar-wrapper .woocommerce-product-search button{
+		height: 28px;
+		cursor: pointer;
+		background-color: #f44336;
+		text-transform: uppercase;
+	    color: white;
+	    padding: 0 5px;
+	    border: none;
+	}
+}
